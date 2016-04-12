@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PageContent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PathToImage>./../../../Content/Images/technolagy.png</PathToImage>
+  <Text>
+    &lt;div&gt;
+    &lt;h1 style="color: #000000;padding-top:20px; text-align: center;font-size: 40px;"&gt;&lt;strong&gt;Технологии&lt;/strong&gt;&lt;/h1&gt;
+
+    &lt;div style="float:left;width :50%;padding-top:20px; padding:20px; bacrground-color: white; opfsity:0,3; "&gt;
+    &lt;h3 style="color: #000000;padding-bottom: 10px; text-align: center; "&gt;Наши серверные решения разрабатываются с использованием следующих технологий:&lt;/h3&gt;
+    &lt;ul&gt;
+    &lt;li&gt;
+    &lt;h5 style="color: #000000; text-align: left;"&gt;&lt;strong&gt;Реализация хранилищ:&lt;/strong&gt;&lt;/h5&gt;
+    &lt;ul class="UlTechnology"&gt;
+    &lt;li&gt;MS SQL&lt;/li&gt;
+    &lt;li&gt;MySQL&lt;/li&gt;
+    &lt;li&gt;NoSQL&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+    &lt;h5 style="color: #000000; text-align: left;"&gt;
+    &lt;strong&gt;.NET технологии:&lt;/strong&gt;
+    &lt;/h5&gt;
+    &lt;ul&gt;
+    &lt;li&gt;WCF&lt;/li&gt;
+    &lt;li&gt;WWF&lt;/li&gt;
+    &lt;li&gt;WinService&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+    &lt;h5 style="color: #000000; text-align: left;"&gt;
+    &lt;strong&gt;Безопасность на уровне данных и транспортном уровне:&lt;/strong&gt;
+    &lt;/h5&gt;
+    &lt;ul&gt;
+    &lt;li&gt;SSL&lt;/li&gt;
+    &lt;li&gt;TSL&lt;/li&gt;
+    &lt;li&gt;ассиметричное и симметричное шифрование,&lt;/li&gt;
+    &lt;li&gt;hash MAC&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div style="float:right;width :50%;padding:20px;padding-top:20px;"&gt;
+    &lt;h3 style="color: #000000;padding-bottom: 10px; text-align: center; "&gt;Для представления данных предлагаем реализации front-end решений в виде:&lt;/h3&gt;
+
+    &lt;ul&gt;
+    &lt;li&gt;
+    &lt;h5 style="color: #000000;"&gt;
+    &lt;strong&gt;Desktop, Web, и мобильных кроссплатформенных приложений, с использованием технологий:&lt;/strong&gt;
+    &lt;/h5&gt;
+    &lt;ul&gt;
+    &lt;li&gt;
+    &lt;h5 style="color: #000000; text-align: left;"&gt;
+    &lt;strong&gt;
+    Desktop:
+    &lt;/strong&gt;
+    &lt;/h5&gt;
+    &lt;ul&gt;
+    &lt;li&gt;WPF&lt;/li&gt;
+    &lt;li&gt;Winforms&lt;/li&gt;
+    &lt;li&gt;DevExpress&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+    &lt;h5 style="color: #000000; text-align: left;"&gt;
+    &lt;strong&gt;
+    Web:
+    &lt;/strong&gt;
+    &lt;/h5&gt;
+    &lt;ul&gt;
+    &lt;li&gt;ASP.NET&lt;/li&gt;
+    &lt;li&gt;MVC 5&lt;/li&gt;
+    &lt;li&gt;Java&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+    &lt;h5 style="color: #000000; text-align: left;"&gt;
+    &lt;strong&gt;
+    Mobile:
+    &lt;/strong&gt;
+    &lt;/h5&gt;
+    &lt;ul&gt;
+    &lt;li&gt;Xamarin&lt;/li&gt;
+    &lt;li&gt;Java&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+
+  </Text>
+</PageContent>

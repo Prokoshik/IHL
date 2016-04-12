@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+
+
+    <script>
+
+        $(document).ready(function () {
+            var lng = navigator.browserLanguage || navigator.language || navigator.userLanguage;
+            $.ajax({
+                url: "@Url.Content("~/home/ChangeCulture")"+"/?lang="+ lng,
+                type: "GET",
+
+            success: function (lng) {
+                ;
+            }
+        });
+
+        })
+    </script>
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="row header">
+            <div class="col logo"><span>HeightLoud</span></div>
+            <div class="col board">
+                <div class="row contact">
+                    <ul>
+                        <li><span class="link icon-whatsapp">@Resources.Resource.Viber</span></li>
+                        <li><span class="link icon-skype">@Resources.Resource.Skype</span></li>
+                        <li><span class="link icon-envelop">@Resources.Resource.Mail</span></li>
+                        <li><span > <a href="#/"><span >EN</span></a> <span>/</span> <a href="#/"><span>RU</span></a></span></li>
+                        
+                    </ul>
+                </div>
+                <div class="row menu">
+                    <ul id="Ulindex">
+                        <li><a href="#/"><span>@Resources.Resource.ServerSolution</span></a></li>
+                        <li><a href="#/home/StackTechnology""><span>@Resources.Resource.Technology</span></a></li>
+                        <li><a href="#/home/Client"><span>@Resources.Resource.Client</span></a></li>
+                        <li><a href="#/home/Scope"><span>@Resources.Resource.Scope</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        @RenderBody()
+   
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", false)
+   <div class="footer" >
+    </div>
+</body>
+</html>

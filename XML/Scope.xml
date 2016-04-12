@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PageContent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PathToImage>./../../../Content/Images/scope.png</PathToImage>
+  <Text>
+    &lt;div class="Scope" style="float:right;width :50%;"&gt;
+    &lt;h1 style="color: #000000;padding-top:20px; text-align: center;font-size: 40px;"&gt;&lt;strong&gt;Область применения&lt;/strong&gt;&lt;/h1&gt;
+    &lt;h4 style="color: #000000; text-align: left;"&gt;
+    &lt;strong&gt; Транспортные коммуникации:&lt;/strong&gt;
+    &lt;/h4&gt;
+    &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Железные дороги&lt;/strong&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Авиаперелёты&lt;/strong&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Такси&lt;/strong&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Порты&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h4 style="color: #000000; text-align: left;"&gt;
+    &lt;strong&gt;
+    Банки&lt;/strong&gt;&lt;/h4&gt;
+
+    &lt;h4 style="color: #000000; text-align: left;"&gt;
+    &lt;strong&gt;
+    Социальные сети
+    &lt;/strong&gt;
+    &lt;/h4&gt;
+
+    &lt;h4 style="color: #000000; text-align: left;"&gt;
+    &lt;strong&gt;
+    Логистика
+    &lt;/strong&gt;
+    &lt;/h4&gt;
+    &lt;h4 style="color: #000000; text-align: left;"&gt;
+    &lt;strong&gt;
+    Аналитика
+    &lt;/strong&gt;
+    &lt;/h4&gt;
+    &lt;h4 style="color: #000000; text-align: left;"&gt;
+    &lt;strong&gt;
+    Туризм
+    &lt;/strong&gt;
+    &lt;/h4&gt;
+    &lt;h4 style="color: #000000; text-align: left;"&gt;
+    &lt;strong&gt;
+    Сфера услуг
+    &lt;/strong&gt;
+    &lt;/h4&gt;
+    &lt;h4 style="color: #000000; text-align: left;"&gt;
+    &lt;strong&gt;
+    Медицина
+    &lt;/strong&gt;
+    &lt;/h4&gt;
+    &lt;h4 style="color: #000000; text-align: left;"&gt;
+    &lt;strong&gt;
+    Сфера развлечений
+    &lt;/strong&gt;
+    &lt;/h4&gt;
+
+    &lt;/div&gt;
+
+  </Text>
+</PageContent>

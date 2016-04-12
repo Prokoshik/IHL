@@ -1,0 +1,259 @@
+﻿*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.footer {
+    background: #ededed;
+    z-index: 2;
+    box-shadow: 0 -2px 2px rgba(141,141,141,0.5);
+}
+
+.technolagyLeft {
+    float: left;
+    width: 50%;
+    padding-top: 20px;
+    padding: 20px;
+}
+
+#indexP {
+    text-indent: 20px;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.technolagyRight {
+    float: right;
+    width: 50%;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+.imageGallery {
+    border-radius: 100px;
+    border: 1px solid #eee;
+    height: 80px;
+    background-color: aliceblue;
+}
+
+.InsideTechnology {
+    -webkit-box-shadow: 7px 7px 42px 0px rgba(92,85,92,1);
+    -moz-box-shadow: 7px 7px 42px 0px rgba(92,85,92,1);
+    box-shadow: 7px 7px 42px 0px rgba(92,85,92,1);
+    padding: 10px;
+    height: 400px;
+}
+
+.gallery {
+    padding-top: 10px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: #ededed;
+    box-shadow: 0 2px 2px rgba(141,141,141,0.5);
+}
+
+p, h1, h2, h3, h5 {
+    margin: 0;
+}
+
+h5 {
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+ul:not(.UlIndex,.UlTechnology) {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.row {
+    margin: 0;
+    width: 100%;
+}
+
+.col {
+    padding: 0 20px;
+    float: left;
+    height: 100%;
+}
+
+    .col:last-child {
+        float: right;
+    }
+
+.logo {
+    width: 15%;
+    position: relative;
+    font: 600 2.5em sans-serif;
+    color: #6f5499;
+    text-shadow: 0 2px 2px rgba(141,141,141,0.5);
+}
+
+    .logo span {
+        position: absolute;
+        top: 50%;
+        transform: translate3d(0, -50%, 0);
+        display: block;
+    }
+
+.board {
+    width: 85%;
+}
+
+
+    .board .menu {
+        height: 70%;
+    }
+
+    .board ul li {
+        display: inline-block;
+    }
+
+.menu ul,
+.contact ul {
+    display: block;
+    height: 100%;
+    float: right;
+    padding-top: 10px;
+}
+
+.menu li {
+    display: block;
+    height: 100%;
+    position: relative;
+}
+
+    .menu li:after {
+        content: "";
+        display: block;
+        height: 60%;
+        padding: 5px 0;
+        width: 1px;
+        background: #8d8d8d;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate3d(0, -50%, 0);
+        opacity: 0.3;
+    }
+
+    .menu li:last-child:after {
+        display: none;
+    }
+
+    .menu li a {
+        display: table;
+        padding: 0 20px;
+        height: 100%;
+        text-decoration: none;
+    }
+
+.menu a span {
+    font: 400 1.3em/1 "Calibri";
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.contact ul > li {
+    position: relative;
+    padding: 0 35px;
+    float: left;
+    /* width: 50%;*/
+    height: 50%;
+    box-sizing: border-box;
+}
+
+
+.contact li span {
+    position: relative;
+}
+
+.icon-font {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-whatsapp:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../Content/Images/phone.png);
+    background-size: cover;
+    left: -35px;
+    top: -5px;
+}
+
+.icon-skype:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../Content/Images/skype.png);
+    background-size: cover;
+    left: -35px;
+    top: -5px;
+}
+
+.icon-envelop:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../Content/Images/mail.PNG);
+    background-size: cover;
+    left: -35px;
+    top: -5px;
+}
+
+@media screen and (max-width:900px) {
+    .contact ul > li {
+        padding: 0 25px;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+    #indexP {
+        font-size: 15px;
+    }
+
+    h1 {
+    }
+}
+
+@media screen and (max-width:1024) {
+
+
+    h5 {
+        font-size: 9px;
+    }
+}
