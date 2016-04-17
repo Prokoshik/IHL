@@ -79,7 +79,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to vika@prokofyeva.by.
+        ///   Looks up a localized string similar to info@ihighload.info.
         /// </summary>
         public static string Mail {
             get {
@@ -88,7 +88,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to +3752934040.
+        ///   Looks up a localized string similar to +375293404040.
         /// </summary>
         public static string Phone {
             get {
@@ -97,7 +97,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Область примененияe.
+        ///   Looks up a localized string similar to Область применения.
         /// </summary>
         public static string Scope {
             get {
@@ -115,7 +115,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to vika.profyeva.
+        ///   Looks up a localized string similar to Позвонить.
         /// </summary>
         public static string Skype {
             get {
@@ -133,7 +133,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to +358642322.
+        ///   Looks up a localized string similar to +375293404040.
         /// </summary>
         public static string Viber {
             get {

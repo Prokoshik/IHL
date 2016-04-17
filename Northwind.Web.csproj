@@ -168,34 +168,41 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\Ihighload.pubxml" />
     <None Include="Scripts\jquery-2.2.2.intellisense.js" />
     <Content Include="Content\Header.css" />
-    <Content Include="Content\Images\1460400108_pharmacy.png" />
     <Content Include="Content\Images\brand.png" />
     <Content Include="Content\Images\client.png" />
+    <Content Include="Content\Images\comunication.png" />
+    <Content Include="Content\Images\disign.png" />
+    <Content Include="Content\Images\EnTechnolagy.png" />
+    <Content Include="Content\Images\Entechnolagy1.png" />
     <Content Include="Content\Images\entertainment.png" />
     <Content Include="Content\Images\finance.png" />
-    <Content Include="Content\Images\internet.png" />
+    <Content Include="Content\Images\fondo-azul-celeste-abstracto.jpg" />
     <Content Include="Content\Images\mail.PNG" />
+    <Content Include="Content\Images\med.png" />
     <Content Include="Content\Images\network.png" />
     <Content Include="Content\Images\phone.png" />
+    <Content Include="Content\Images\Preparation.png" />
     <Content Include="Content\Images\science.png" />
     <Content Include="Content\Images\scope.png" />
     <Content Include="Content\Images\serverSln.png" />
-    <Content Include="Content\Images\servicesSector.jpg" />
     <Content Include="Content\Images\skype.png" />
     <Content Include="Content\Images\social.png" />
-    <Content Include="Content\Images\technolagy.png" />
+    <Content Include="Content\Images\spfera.png" />
+    <Content Include="Content\Images\Support.png" />
+    <Content Include="Content\Images\technolagy.jpg.png" />
     <Content Include="Content\Images\transport.png" />
-    <Content Include="Content\Images\vector_66_11.png" />
     <Content Include="Content\Images\viber.png" />
-    <Content Include="Content\Scopegallery.css" />
     <Content Include="Scripts\jquery-2.2.2.js" />
     <Content Include="Scripts\jquery-2.2.2.min.js" />
     <Content Include="XML\Scope.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="XML\Client.xml" />
+    <Content Include="XML\Client.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="XML\ClientApplicationDev.xml" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -785,7 +792,9 @@
     <Content Include="Scripts\text.js" />
     <Content Include="Scripts\util.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="XML\StackTechnology.xml" />
+    <Content Include="XML\StackTechnology.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

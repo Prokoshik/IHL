@@ -1,61 +1,194 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PageContent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PathToImage>./../../../Content/Images/scope.png</PathToImage>
-  <Text>
-    &lt;div class="Scope" style="float:right;width :50%;"&gt;
-    &lt;h1 style="color: #000000;padding-top:20px; text-align: center;font-size: 40px;"&gt;&lt;strong&gt;Область применения&lt;/strong&gt;&lt;/h1&gt;
-    &lt;h4 style="color: #000000; text-align: left;"&gt;
-    &lt;strong&gt; Транспортные коммуникации:&lt;/strong&gt;
-    &lt;/h4&gt;
-    &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Железные дороги&lt;/strong&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Авиаперелёты&lt;/strong&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Такси&lt;/strong&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Порты&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ul&gt;
+  <PathToImage>./../../../Content/Images/technolagy.jpg.png</PathToImage>
+  <RUText>
+    &lt;div class="row application-area-block"&gt;
+    &lt;h2 style=" color: #000000;padding: 10px; text-align: center;"&gt;Область применения&lt;/h2&gt;
 
-    &lt;h4 style="color: #000000; text-align: left;"&gt;
-    &lt;strong&gt;
-    Банки&lt;/strong&gt;&lt;/h4&gt;
+    &lt;div class="row application-area-block"&gt;
+    &lt;div class="col-lg-4"&gt;
 
-    &lt;h4 style="color: #000000; text-align: left;"&gt;
-    &lt;strong&gt;
-    Социальные сети
-    &lt;/strong&gt;
-    &lt;/h4&gt;
-
-    &lt;h4 style="color: #000000; text-align: left;"&gt;
-    &lt;strong&gt;
-    Логистика
-    &lt;/strong&gt;
-    &lt;/h4&gt;
-    &lt;h4 style="color: #000000; text-align: left;"&gt;
-    &lt;strong&gt;
-    Аналитика
-    &lt;/strong&gt;
-    &lt;/h4&gt;
-    &lt;h4 style="color: #000000; text-align: left;"&gt;
-    &lt;strong&gt;
-    Туризм
-    &lt;/strong&gt;
-    &lt;/h4&gt;
-    &lt;h4 style="color: #000000; text-align: left;"&gt;
-    &lt;strong&gt;
-    Сфера услуг
-    &lt;/strong&gt;
-    &lt;/h4&gt;
-    &lt;h4 style="color: #000000; text-align: left;"&gt;
-    &lt;strong&gt;
+    &lt;div class="col-lg-12"&gt;
+    &lt;img class="imageGallery" ; src="/Content/Images/med.png"&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12"&gt;
     Медицина
-    &lt;/strong&gt;
-    &lt;/h4&gt;
-    &lt;h4 style="color: #000000; text-align: left;"&gt;
-    &lt;strong&gt;
-    Сфера развлечений
-    &lt;/strong&gt;
-    &lt;/h4&gt;
-
+    &lt;/div&gt;
     &lt;/div&gt;
 
-  </Text>
+    &lt;div class="col-lg-4"&gt;
+    &lt;div class="col-lg-12 "style="padding-left: 62px;"&gt;
+    &lt;img class="imageGallery" src="/Content/Images/finance.png"&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12" style="padding-left: 0px;"&gt;
+    Финансы и аналитика
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-lg-4"&gt;
+    &lt;div class="col-lg-12"&gt;
+    &lt;img class="imageGallery" src="/Content/Images/social.png"&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12"&gt;
+    Интернет
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;/div&gt;
+    &lt;div class="col-lg-4"&gt;
+    &lt;div class="col-lg-12"&gt;
+    &lt;img class="imageGallery" src="/Content/Images/science.png"&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12"&gt;
+    Наука
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-lg-4"&gt;
+    &lt;div class="col-lg-12" style="padding-left: 62px;"&gt;
+    &lt;img class="imageGallery" src="/Content/Images/network.png"&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12" style="padding-left:12px;"&gt;
+    Социальные сети
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-lg-4"&gt;
+    &lt;div class="col-lg-12"&gt;
+    &lt;img class="imageGallery" src="/Content/Images/comunication.png" &gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12"&gt;
+    Коммуникации
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-lg-4"&gt;
+    &lt;div class="col-lg-12"&gt;
+    &lt;img class="imageGallery" src="/Content/Images/spfera.png"&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12"&gt;
+    Cфера услуг
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-lg-4"&gt;
+    &lt;div class="col-lg-12" style="padding-left: 62px;"&gt;
+    &lt;img class="imageGallery" src="/Content/Images/transport.png" &gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12"style="padding-left: 0px;"&gt;
+    Транспорт и логистика
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-lg-4"&gt;
+    &lt;div class="col-lg-12"&gt;
+    &lt;img class="imageGallery" src="/Content/Images/entertainment.png"&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12"&gt;
+    Развлечения
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+
+
+
+
+
+
+  </RUText>
+  <ENText>
+    &lt;div class="row application-area-block"&gt;
+    &lt;h2 style="color: #000000;padding: 10px; text-align: center; "&gt;Область применения&lt;/h2&gt;
+
+    &lt;div class="row application-area-block"&gt;
+    &lt;div class="col-lg-4"&gt;
+
+    &lt;div class="col-lg-12"&gt;
+    &lt;img class="imageGallery" ; src="/Content/Images/med.png"&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12"&gt;
+    Medicine
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-lg-4"&gt;
+    &lt;div class="col-lg-12 "style="padding-left: 62px;"&gt;
+    &lt;img class="imageGallery" src="/Content/Images/finance.png"&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12" style="padding-left: 0px;"&gt;
+    Finance and Analytics
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-lg-4"&gt;
+    &lt;div class="col-lg-12"&gt;
+    &lt;img class="imageGallery" src="/Content/Images/social.png"&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12"&gt;
+    Internet
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;/div&gt;
+    &lt;div class="col-lg-4"&gt;
+    &lt;div class="col-lg-12"&gt;
+    &lt;img class="imageGallery" src="/Content/Images/science.png"&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12"&gt;
+    Science
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-lg-4"&gt;
+    &lt;div class="col-lg-12" style="padding-left: 62px;"&gt;
+    &lt;img class="imageGallery" src="/Content/Images/network.png"&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12" style="padding-left:12px;"&gt;
+    Social networks
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-lg-4"&gt;
+    &lt;div class="col-lg-12"&gt;
+    &lt;img class="imageGallery" src="/Content/Images/comunication.png" &gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12"&gt;
+    Communications
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-lg-4"&gt;
+    &lt;div class="col-lg-12"&gt;
+    &lt;img class="imageGallery" src="/Content/Images/spfera.png"&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12"&gt;
+    Services sector
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-lg-4"&gt;
+    &lt;div class="col-lg-12" style="padding-left: 62px;"&gt;
+    &lt;img class="imageGallery" src="/Content/Images/transport.png" &gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12"style="padding-left: 0px;"&gt;
+    Transport and Logistic
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-lg-4"&gt;
+    &lt;div class="col-lg-12"&gt;
+    &lt;img class="imageGallery" src="/Content/Images/entertainment.png"&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-12"&gt;
+    Entertainment
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+
+
+
+
+
+  </ENText>
+
 </PageContent>

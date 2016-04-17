@@ -2,8 +2,16 @@
     box-sizing: border-box;
 }
 
+html {
+    box-sizing: border-box;
+}
+
 body {
     width: 100%;
+}
+
+.clear {
+    clear: both;
 }
 
 .wrapper {
@@ -12,10 +20,80 @@ body {
     z-index: 2;
 }
 
+#fixer {
+    min-height: 100vh;
+    position: relative;
+}
+
+.text-blk-left {
+    float: left;
+    margin-left: 50px;
+    max-width: 450px;
+}
+
+.text-blk-right {
+    max-width: 470px;
+}
+
+.text-blk-right {
+    float: right;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.fixed-width {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.one_third {
+    position: relative;
+    margin-right: 6%;
+    margin-bottom: 20px;
+    float: left;
+    width: 27%;
+}
+#technolagyrowtwo {
+    /*display:inline-block;*/
+    /*height:100%; для медийных запросов*/
+}
+#centerstyle {
+    text-align:center;
+}
+#descriptionclient {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size:20px;
+}
+
+.imageclient {
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.service {
+
+    margin-bottom: 5px;
+}
+
+section {
+    display: block;
+}
+
 .footer {
     background: #ededed;
     z-index: 2;
     box-shadow: 0 -2px 2px rgba(141,141,141,0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .technolagyLeft {
@@ -25,10 +103,46 @@ body {
     padding: 20px;
 }
 
+.clearfix:before {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.service-icon {
+    margin: 0 20px 20px 0;
+    float: left;
+    padding-left: 10%;
+    width: 100%
+}
+
+.service {
+    margin-bottom: 5px;
+}
+
+
+#contentIndex {
+   width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 700px;  
+}
+#cell {
+    display:table-cell;
+    vertical-align: middle;
+}
+
 #indexP {
     text-indent: 20px;
     font-size: 19px;
     text-align: justify;
+}
+
+#spanfontindex {
+    font-size: 19px;
 }
 
 .technolagyRight {
@@ -45,6 +159,11 @@ body {
     background-color: aliceblue;
 }
 
+.brandImage {
+    border: 1px solid #eee;
+    height: 80px;
+}
+
 .InsideTechnology {
     -webkit-box-shadow: 7px 7px 42px 0px rgba(92,85,92,1);
     -moz-box-shadow: 7px 7px 42px 0px rgba(92,85,92,1);
@@ -57,11 +176,21 @@ body {
     padding-top: 10px;
 }
 
+#headerStack {
+    color: #000000;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
 .header {
     width: 100%;
     height: 100px;
     background: #ededed;
     box-shadow: 0 2px 2px rgba(141,141,141,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 p, h1, h2, h3, h5 {
@@ -85,20 +214,28 @@ ul:not(.UlIndex,.UlTechnology) {
 }
 
 .col {
-    padding: 0 20px;
+    padding: 0px 20px;
     float: left;
     height: 100%;
 }
 
-    .col:last-child {
-        float: right;
-    }
+#brandP {
+    font-size: 34px;
+    padding-top: 22px;
+    padding-left: 28px;
+}
+
+.col:last-child {
+    float: right;
+}
 
 .logo {
+    display: inline-flex;
+    padding: 10px 20px;
     width: 15%;
     position: relative;
     font: 600 2.5em sans-serif;
-    color: #6f5499;
+    color: #428bca;
     text-shadow: 0 2px 2px rgba(141,141,141,0.5);
 }
 
@@ -230,10 +367,46 @@ ul:not(.UlIndex,.UlTechnology) {
     top: -5px;
 }
 
-@media screen and (max-width:900px) {
+@media all and (max-width:1023px) {
+    #technolagyrowtwo {
+    display:inline-block;
+    height:100%; 
+}
+    .text-blk-left {
+            float: none;
+    margin-left: 0px;
+    max-width: none;
+    }
+     .text-blk-right {
+              float: none;
+    margin-left: 0px;
+    max-width: none;
+    }
+   #cammondiv {
+       width:75%;
+       padding-left:15%;
+    }
+
+    .InsideTechnology {
+        height: 310px;
+    }
+
+    .technolagyLeft {
+        padding: 10px;
+        padding-top: 9px;
+        height: 320px;
+    }
+
+    .technolagyRight {
+        padding: 10px;
+        padding-top: 9px;
+        height: 330px;
+    }
+
     .contact ul > li {
         padding: 0 25px;
     }
+
 
     body {
         font-size: 12px;
@@ -242,18 +415,119 @@ ul:not(.UlIndex,.UlTechnology) {
     p {
         font-size: 15px;
     }
+
     #indexP {
         font-size: 15px;
     }
 
-    h1 {
+    #headerStack {
+        padding-top: 15px;
+        font-size: 27px;
     }
-}
 
-@media screen and (max-width:1024) {
+    #contentIndex {
+        width: 480px;
+    }
 
+    #spanfontindex {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
 
     h5 {
-        font-size: 9px;
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    b {
+        font-size: 14px;
+    }
+
+    #brandP {
+        font-size: 34px;
+        padding-top: 22px;
+        padding-left: 12px;
     }
 }
+
+@media all and (max-width:800px) {
+    #brandP {
+        font-size: 24px;
+        padding-top: 43px;
+    }
+
+    .hidden-mb {
+        display: none;
+    }
+
+    .hidden-mb {
+        display: none;
+    }
+
+
+        @media all and (min-width:1440px) {
+
+            .InsideTechnology {
+                height: 500px;
+            }
+
+            .technolagyLeft {
+                padding: 10px;
+                padding-top: 9px;
+                height: 500px;
+            }
+
+            .technolagyRight {
+                height: 500px;
+                padding: 10px;
+                padding-top: 9px;
+            }
+
+            .contact ul > li {
+            }
+
+
+            body {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 23px;
+            }
+
+            #indexP {
+                font-size: 25px;
+            }
+
+            #headerStack {
+            }
+
+            #contentIndex {
+                width: 1000px;
+                padding: 45px;
+            }
+
+            #spanfontindex {
+                font-size: 30px;
+            }
+
+            h3 {
+            }
+
+            h5 {
+            }
+
+            h1 {
+                font-size: 60px;
+            }
+
+            b {
+                font-size: 22px;
+            }
+        }

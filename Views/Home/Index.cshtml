@@ -1,31 +1,9 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-<div id="ContentWithBackground" style="background:url(@ViewBag.Path) no-repeat 0 0;background-size: cover">
-    <div style="width: 600px; padding: 20px ;">
-        <div>
-            <h1 style="color: #5e9ca0;padding-bottom: 10px; text-align: center;">Наши решения</h1>
-        </div>
-        <div padding-top:10px;>
-            <span style="color : #5e9ca0;"><p id="indexP" >Компания специализируется на разработке высоконагруженных, масштабируемых, отказоустойчивых back-end систем на базе многоуровневых, многослойных, сервис-ориентированных архитектурных решений.</p></span>
-            <h3 style="color : #5e9ca0; text-align: justify;padding-top: 10px;"> <p style="text-indent: 20px">Основные направления разработки:</p></h3>
-            <ul class="UlIndex" style="padding-top: 10px;color : #5e9ca0;">
-                <li style="text-align: justify;">
-                    <span style="font-size :19px;">клиент-ориентированные системы системы</span>
-                </li>
-                <li style="text-align: justify;">
-                    <span style="font-size :19px;">сложных вычислительных задач.</span>
-                </li>
-            </ul>
-            <span style="color : #5e9ca0; text-align: justify;font-size :19px;">
-                <p style="text-indent: 20px"> Компания предлагает выгодные ценовые решения с учетом конъюнктуры рынка. Открытое для клиента обсуждение стоимости реализации проекта. Минимизация стоимости продукта происходит за счет использования современных и прогрессивных средств разработки.</p>
-            </span>
-            <p style="text-align: justify;"></p>
+<div id="ContentWithBackground" style="background:url(@ViewBag.Path) no-repeat 0 0;background-size: cover;min-height: 100vh; display:table;">
 
-        </div>
-
-    </div>
+  @Html.Raw(Model);
 
 </div>
-
 

@@ -8,11 +8,14 @@ using System.Xml.Serialization;
 
 namespace Northwind.Web.Models
 {
+    //TODO Сделать крутые отступы
+
     [Serializable]
     public class PageContent
     {
         public string PathToImage;
-        public string Text;
+        public string RUText;
+        public string ENText;
         public PageContent() { }
         public PageContent(string pathToXml)
         {
@@ -24,7 +27,9 @@ namespace Northwind.Web.Models
             {
                 pageContent = logsSerializer.Deserialize(logReader) as PageContent;  
                 PathToImage = pageContent.PathToImage;
-                Text = pageContent.Text;
+                RUText = pageContent.RUText;
+                ENText = pageContent.ENText;
+
             }
 
 

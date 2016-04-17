@@ -124,10 +124,10 @@
     <value>Client Solution</value>
   </data>
   <data name="Mail" xml:space="preserve">
-    <value>qqqqqqq@gmail.com</value>
+    <value>info@ihighload.info</value>
   </data>
   <data name="Phone" xml:space="preserve">
-    <value>+734551245</value>
+    <value>Call</value>
   </data>
   <data name="Scope" xml:space="preserve">
     <value>Scope</value>
@@ -136,12 +136,9 @@
     <value> Solutions</value>
   </data>
   <data name="Skype" xml:space="preserve">
-    <value>vika.prokofyeva</value>
+    <value>Call</value>
   </data>
   <data name="Technology" xml:space="preserve">
     <value>Technology</value>
-  </data>
-  <data name="Viber" xml:space="preserve">
-    <value>+54545415454</value>
   </data>
 </root>

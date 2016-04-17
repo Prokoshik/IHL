@@ -1,77 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PageContent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PathToImage>./../../../Content/Images/client.png</PathToImage>
-  <Text>
-    &lt;P style="text-indent: 20px; font-size :19px;text-align: justify;padding:20px;"&gt;
-    Индивидуальная реализация проекта по требованиям
-    заказчика. Предлагаются услуги
-    высококвалифицированных специалистов
-    для определения эффективных вариантов
-    реализации в соответствии с условиями
-    и требованиями заказчика.
-    &lt;/P&gt;
+  <PathToImage>./../../../Content/Images/technolagy.jpg.png</PathToImage>
+  <RUText>
+    &lt;h2 id="headerStack" style="margin-top :10px;"&gt;КомпанияоОбеспечивает полный цикл разработки:&lt;/h2&gt;
+    &lt;section class="service-columns clearfix home-border imageclient" style=""&gt;
+    &lt;section class="one_third service clearfix"&gt;
+    &lt;figure class="service-icon"&gt;
+    &lt;img src="/Content/Images/Preparation.png" style="margin-right: 5px;width: 100%;"&gt;
+    &lt;/figure&gt;
+    &lt;article class="service"&gt;
+    &lt;h3 id="centerstyle"&gt;Подготовка&lt;/h3&gt;
+    &lt;p&gt;сбор и обработка требований. Предварительное планирование этапов работ, сроков, ресурсов и стоимости&lt;/p&gt;
+    &lt;/article&gt;
+    &lt;/section&gt;
+    &lt;section class="one_third service clearfix"&gt;
+    &lt;figure class="service-icon"&gt;
+    &lt;img src="/Content/Images/disign.png" style="width: 100%;"&gt;
+    &lt;/figure&gt;
+    &lt;article class="service"&gt;
+    &lt;h3 id="centerstyle"&gt;Проектирование и Создание&lt;/h3&gt;
+    &lt;p&gt;
+    Дизайн — получение графических макетов, визуальных форм, разработка интерфейсов. Создание индивидуального стиля.
+    &lt;br /&gt;	Кодирование — получение исходного кода.
+    &lt;br /&gt;	Тестирование — проверка программы на соответствие всем предъявляемым к ней требованиям.
+    &lt;br /&gt;	Документирование — получение возможности передачи накопленных знаний другим разработчикам
+    &lt;/p&gt;
+    &lt;/article&gt;
+    &lt;/section&gt;
+    &lt;section class="one_third last service clearfix"&gt;
+    &lt;figure class="service-icon"&gt;
+    &lt;img src="/Content/Images/Support.png" style="width: 100%;"&gt;
+    &lt;/figure&gt;
+    &lt;article class="service"&gt;
+    &lt;h3 id="centerstyle"&gt;Поддержка&lt;/h3&gt;
+    &lt;p&gt;
+    Внедрение — установка программного обеспечения, обучение пользователей.
+    &lt;br /&gt;	Сопровождение — исправление выявленных ошибок, поддержка пользователей.
+    &lt;/p&gt;
+    &lt;/article&gt;
+    &lt;/section&gt;
+    &lt;div class="clear"&gt;&lt;/div&gt;
+    &lt;/section&gt;
+    &lt;div id="descriptionclient"&gt;
+    &lt;strong&gt;
+    Индивидуальная реализация проекта по требованиям заказчика.  Предлагаются услуги высококвалифицированных специалистов для определения эффективных вариантов реализации в соответствии с условиями и требованиями заказчика.
+    &lt;/strong&gt;
+    &lt;/div&gt;
 
-    &lt;h5 style="color: #000000; text-align: left; "&gt;&lt;strong&gt; Обеспечивается полный цикл разработки:&lt;/strong&gt;&lt;/h5&gt;
-    &lt;OL&gt;
-    &lt;LI&gt;
-    &lt;P STYLE="margin-bottom: 0.11in"&gt;
-    &lt;B&gt;Подготовка&lt;/B&gt; —
-    сбор и обработка требований. Предварительное
-    планирование этапов работ, сроков,
-    ресурсов и стоимости.
-    &lt;/P&gt;
-    &lt;LI&gt;
-    &lt;P STYLE="margin-bottom: 0.11in"&gt;
-    &lt;B&gt;Проектирование&lt;/B&gt;
-    — получение технических заданий,
-    разработка спецификаций. Партнер
-    получает документальное изложение
-    своих требований и планы проведения
-    работ.
-    &lt;/P&gt;
-    &lt;LI&gt;
-    &lt;P STYLE="margin-bottom: 0.11in"&gt;&lt;B&gt;Создание&lt;/B&gt;.&lt;/P&gt;
-    &lt;UL&gt;
-    &lt;LI&gt;
-    &lt;P STYLE="margin-bottom: 0.11in"&gt;
-    &lt;B&gt;Дизайн&lt;/B&gt; —
-    получение графических макетов,
-    визуальных форм, разработка интерфейсов.
-    Создание индивидуального стиля.
-    &lt;/P&gt;
-    &lt;LI&gt;
-    &lt;P STYLE="margin-bottom: 0.11in"&gt;
-    &lt;B&gt;Кодирование&lt;/B&gt;
-    — получение исходного кода.
-    &lt;/P&gt;
-    &lt;LI&gt;
-    &lt;P STYLE="margin-bottom: 0.11in"&gt;
-    &lt;B&gt;Тестирование&lt;/B&gt;
-    — проверка программы на соответствие
-    всем предъявляемым к ней требованиям.
-    &lt;/P&gt;
-    &lt;LI&gt;
-    &lt;P STYLE="margin-bottom: 0.11in"&gt;
-    &lt;B&gt;Документирование&lt;/B&gt;
-    — получение возможности передачи
-    накопленных знаний другим разработчикам.
-    &lt;/P&gt;
-    &lt;/UL&gt;
-    &lt;LI&gt;
-    &lt;P STYLE="margin-bottom: 0.11in"&gt;&lt;B&gt;Поддержка&lt;/B&gt;.&lt;/P&gt;
-    &lt;UL&gt;
-    &lt;LI&gt;
-    &lt;P STYLE="margin-bottom: 0.11in"&gt;
-    &lt;B&gt;Внедрение&lt;/B&gt; —
-    установка программного обеспечения,
-    обучение пользователей.
-    &lt;/P&gt;
-    &lt;LI&gt;&lt;P STYLE="margin-bottom: 0.11in"&gt;&lt;B&gt;Сопровождение&lt;/B&gt;
-    — исправление выявленных ошибок,
-    поддержка пользователей.&lt;/P&gt;
-    &lt;/UL&gt;
-    &lt;/OL&gt;
-    &lt;h6 style="color: #000000; text-align: left;text-align:center;"&gt;Конфиденциальность информации по данным проекта гарантируется.&lt;/h6&gt;
 
-  </Text>
+  </RUText>
+  <ENText>
+    &lt;h2 id="headerStack" style="margin-top :10px;"&gt;Company provides a full development cycle:&lt;/h2&gt;
+    &lt;section class="service-columns clearfix home-border imageclient" style=""&gt;
+    &lt;section class="one_third service clearfix"&gt;
+    &lt;figure class="service-icon"&gt;
+    &lt;img src="/Content/Images/Preparation.png" style="margin-right: 5px;width: 100%;"&gt;
+    &lt;/figure&gt;
+    &lt;article class="service"&gt;
+    &lt;h3 id="centerstyle"&gt;Preparation&lt;/h3&gt;
+    &lt;/article&gt;
+    &lt;/section&gt;
+    &lt;section class="one_third service clearfix"&gt;
+    &lt;figure class="service-icon"&gt;
+    &lt;img src="/Content/Images/disign.png" style="width: 100%;"&gt;
+    &lt;/figure&gt;
+    &lt;article class="service"&gt;
+    &lt;h3 id="centerstyle"&gt;Design and Creation&lt;/h3&gt;
+    &lt;/article&gt;
+    &lt;/section&gt;
+    &lt;section class="one_third last service clearfix"&gt;
+    &lt;figure class="service-icon"&gt;
+    &lt;img src="/Content/Images/Support.png" style="width: 100%;"&gt;
+    &lt;/figure&gt;
+    &lt;article class="service"&gt;
+    &lt;h3 id="centerstyle"&gt;Support&lt;/h3&gt;
+    &lt;/article&gt;
+    &lt;/section&gt;
+    &lt;div class="clear"&gt;&lt;/div&gt;
+    &lt;/section&gt;
+    &lt;div id="descriptionclient"&gt;
+    &lt;strong&gt;
+    Being client oriented company, we are focused on quality and always searching for optimal solution
+    and creative ways for every project.
+    We are oriented on quality of provided services, thus understanding the value of such key points of collaboration
+    as security, scalability, communication, visibility, meeting deadlines, budget and quality expectations is essential for us.
+    &lt;/strong&gt;
+    &lt;/div&gt;
+
+  </ENText>
+  
+
 </PageContent>

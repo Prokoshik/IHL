@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PageContent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PathToImage>./../../../Content/Images/serverSln.png</PathToImage>
-  <Text>
-    &lt;div style="width: 600px; padding: 20px ;"&gt;
+  <PathToImage>./../../../Content/Images/fondo-azul-celeste-abstracto.jpg</PathToImage>
+  <RUText>
+    &lt;div id="cell"&gt;
+    &lt;div id="contentIndex"&gt;
+    &lt;h1 style="text-align :center; padding-bottom:10px"&gt;Наши решения&lt;/h1&gt;
     &lt;div&gt;
-    &lt;h1 style="color: #5e9ca0;padding-bottom: 10px; text-align: center;"&gt;Наши решения&lt;/h1&gt;
-    &lt;/div&gt;
-    &lt;div padding-top:10px;&gt;
-    &lt;span style="color : #5e9ca0;"&gt;&lt;p style="text-indent: 20px; font-size :19px;text-align: justify;"&gt;Компания специализируется на разработке высоконагруженных, масштабируемых, отказоустойчивых back-end систем на базе многоуровневых, многослойных, сервис-ориентированных архитектурных решений.&lt;/p&gt;&lt;/span&gt;
-    &lt;h3 style="color : #5e9ca0; text-align: justify;padding-top: 10px;"&gt; &lt;p style="text-indent: 20px"&gt;Основные направления разработки:&lt;/p&gt;&lt;/h3&gt;
-    &lt;ul class="UlIndex" style="padding-top: 10px;color : #5e9ca0;"&gt;
-    &lt;li style="text-align: justify;"&gt;
-    &lt;span style="font-size :19px;"&gt;клиент-ориентированные системы системы&lt;/span&gt;
-    &lt;/li&gt;
-    &lt;li style="text-align: justify;"&gt;
-    &lt;span style="font-size :19px;"&gt;сложных вычислительных задач.&lt;/span&gt;
-    &lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;span style="color : #5e9ca0; text-align: justify;font-size :19px;"&gt;
-    &lt;p style="text-indent: 20px"&gt; Компания предлагает выгодные ценовые решения с учетом конъюнктуры рынка. Открытое для клиента обсуждение стоимости реализации проекта. Минимизация стоимости продукта происходит за счет использования современных и прогрессивных средств разработки.&lt;/p&gt;
+    &lt;span&gt;&lt;p id="indexP"&gt;&lt;/p&gt;&lt;/span&gt;
+    &lt;span style="text-align: justify;font-size :25px;"&gt;
+    &lt;p id="indexP" style="text-indent: 20px"&gt;
+    Компания специализируется на разработке высоконагруженных, масштабируемых, отказоустойчивых back-end систем на базе многоуровневых, многослойных, сервис-ориентированных архитектурных решений. Основные направления разработки: клиент-ориентированные системы и системы сложных вычислительных задач.
+    Компания предлагает выгодные ценовые решения с учетом конъюнктуры рынка. Открытое для клиента обсуждение стоимости реализации проекта. Минимизация стоимости продукта происходит за счет использования современных и прогрессивных средств разработки.
+
+    &lt;/p&gt;
     &lt;/span&gt;
     &lt;p style="text-align: justify;"&gt;&lt;/p&gt;
 
@@ -27,6 +21,30 @@
     &lt;/div&gt;
 
 
+    &lt;/div&gt;
 
-  </Text>
+  </RUText>
+  <ENText>
+    &lt;div id="cell"&gt;
+    &lt;div id="contentIndex"&gt;
+    &lt;h1 style="text-align center;"&gt;Solution&lt;/h1&gt;
+    &lt;div&gt;
+    &lt;span&gt;&lt;p id="indexP"&gt;Allow us to introduce to you our company. We are an IT development company located in Belarus.&lt;/p&gt;&lt;/span&gt;
+    &lt;span style="text-align: justify;font-size :25px;"&gt;
+    &lt;p id="indexP" style="text-indent: 20px"&gt;
+    Our team is an experienced and dynamic developed IT professionals.
+    We provide scalable, high available, fault tolerance and highload systems. Main areas are customer-oriented systems
+    and complex systems for resolving any problems.
+    &lt;/p&gt;
+    &lt;/span&gt;
+    &lt;p style="text-align: justify;"&gt;&lt;/p&gt;
+
+    &lt;/div&gt;
+
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+
+  </ENText>
 </PageContent>
