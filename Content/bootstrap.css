@@ -331,7 +331,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.428571429;
-    color: #333333;
+    color: #3E4C6F;
     background-color: #ffffff;
 }
 
@@ -1391,7 +1391,7 @@ pre {
     }
 
     .col-lg-4 {
-        width: 33.33333333333333%;
+        width: 31.33333333333333%;
     }
 
     .col-lg-5 {

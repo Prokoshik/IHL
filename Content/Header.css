@@ -54,20 +54,27 @@ body {
     float: left;
     width: 27%;
 }
+
 #technolagyrowtwo {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
     /*display:inline-block;*/
     /*height:100%; для медийных запросов*/
 }
+
 #centerstyle {
-    text-align:center;
+    text-align: center;
 }
+
 #descriptionclient {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    font-size:20px;
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 20px;
+    text-align: justify;
 }
 
 .imageclient {
@@ -75,11 +82,9 @@ body {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-
 }
 
 .service {
-
     margin-bottom: 5px;
 }
 
@@ -116,7 +121,7 @@ section {
     margin: 0 20px 20px 0;
     float: left;
     padding-left: 10%;
-    width: 100%
+    width: 100%;
 }
 
 .service {
@@ -125,20 +130,28 @@ section {
 
 
 #contentIndex {
-   width: 70%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
-    max-width: 700px;  
+    max-width: 700px;
 }
+
 #cell {
-    display:table-cell;
+    display: table-cell;
     vertical-align: middle;
 }
 
 #indexP {
-    text-indent: 20px;
     font-size: 19px;
     text-align: justify;
+}
+
+#indexp2 {
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 10px;
+}
+
 }
 
 #spanfontindex {
@@ -177,7 +190,7 @@ section {
 }
 
 #headerStack {
-    color: #000000;
+    color: #3E4C6F;
     padding-top: 20px;
     text-align: center;
     font-size: 40px;
@@ -211,6 +224,7 @@ ul:not(.UlIndex,.UlTechnology) {
 .row {
     margin: 0;
     width: 100%;
+    text-align: center;
 }
 
 .col {
@@ -367,24 +381,78 @@ ul:not(.UlIndex,.UlTechnology) {
     top: -5px;
 }
 
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.show {
+    display: block;
+}
+
 @media all and (max-width:1023px) {
     #technolagyrowtwo {
-    display:inline-block;
-    height:100%; 
-}
+        display: inline-block;
+        height: 100%;
+    }
+
     .text-blk-left {
-            float: none;
-    margin-left: 0px;
-    max-width: none;
+        float: none;
+        margin-left: 0px;
+        max-width: none;
     }
-     .text-blk-right {
-              float: none;
-    margin-left: 0px;
-    max-width: none;
+
+    .text-blk-right {
+        float: none;
+        margin-left: 0px;
+        max-width: none;
     }
-   #cammondiv {
-       width:75%;
-       padding-left:15%;
+
+    #cammondiv {
+        width: 75%;
+        padding-left: 15%;
     }
 
     .InsideTechnology {
@@ -471,63 +539,63 @@ ul:not(.UlIndex,.UlTechnology) {
     }
 
 
-        @media all and (min-width:1440px) {
+    @media all and (min-width:1440px) {
 
-            .InsideTechnology {
-                height: 500px;
-            }
-
-            .technolagyLeft {
-                padding: 10px;
-                padding-top: 9px;
-                height: 500px;
-            }
-
-            .technolagyRight {
-                height: 500px;
-                padding: 10px;
-                padding-top: 9px;
-            }
-
-            .contact ul > li {
-            }
-
-
-            body {
-                font-size: 20px;
-            }
-
-            p {
-                font-size: 23px;
-            }
-
-            #indexP {
-                font-size: 25px;
-            }
-
-            #headerStack {
-            }
-
-            #contentIndex {
-                width: 1000px;
-                padding: 45px;
-            }
-
-            #spanfontindex {
-                font-size: 30px;
-            }
-
-            h3 {
-            }
-
-            h5 {
-            }
-
-            h1 {
-                font-size: 60px;
-            }
-
-            b {
-                font-size: 22px;
-            }
+        .InsideTechnology {
+            height: 500px;
         }
+
+        .technolagyLeft {
+            padding: 10px;
+            padding-top: 9px;
+            height: 500px;
+        }
+
+        .technolagyRight {
+            height: 500px;
+            padding: 10px;
+            padding-top: 9px;
+        }
+
+        .contact ul > li {
+        }
+
+
+        body {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 23px;
+        }
+
+        #indexP {
+            font-size: 25px;
+        }
+
+        #headerStack {
+        }
+
+        #contentIndex {
+            width: 1000px;
+            padding: 45px;
+        }
+
+        #spanfontindex {
+            font-size: 30px;
+        }
+
+        h3 {
+        }
+
+        h5 {
+        }
+
+        h1 {
+            font-size: 60px;
+        }
+
+        b {
+            font-size: 22px;
+        }
+    }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PageContent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PathToImage>./../../../Content/Images/technolagy.jpg.png</PathToImage>
+  <PathToImage>./../../../Content/Images/background.jpg</PathToImage>
   <RUText>
     &lt;h2 id="headerStack" style="margin-top :10px;"&gt;КомпанияоОбеспечивает полный цикл разработки:&lt;/h2&gt;
     &lt;section class="service-columns clearfix home-border imageclient" style=""&gt;
@@ -10,7 +10,7 @@
     &lt;/figure&gt;
     &lt;article class="service"&gt;
     &lt;h3 id="centerstyle"&gt;Подготовка&lt;/h3&gt;
-    &lt;p&gt;сбор и обработка требований. Предварительное планирование этапов работ, сроков, ресурсов и стоимости&lt;/p&gt;
+    &lt;p&gt;Cбор и обработка требований. Предварительное планирование этапов работ, сроков, ресурсов и стоимости&lt;/p&gt;
     &lt;/article&gt;
     &lt;/section&gt;
     &lt;section class="one_third service clearfix"&gt;
@@ -20,11 +20,10 @@
     &lt;article class="service"&gt;
     &lt;h3 id="centerstyle"&gt;Проектирование и Создание&lt;/h3&gt;
     &lt;p&gt;
-    Дизайн — получение графических макетов, визуальных форм, разработка интерфейсов. Создание индивидуального стиля.
-    &lt;br /&gt;	Кодирование — получение исходного кода.
-    &lt;br /&gt;	Тестирование — проверка программы на соответствие всем предъявляемым к ней требованиям.
-    &lt;br /&gt;	Документирование — получение возможности передачи накопленных знаний другим разработчикам
-    &lt;/p&gt;
+    Дизайн.
+   	Кодирование.
+   	Тестирование.
+   	Документирование.
     &lt;/article&gt;
     &lt;/section&gt;
     &lt;section class="one_third last service clearfix"&gt;
@@ -34,17 +33,17 @@
     &lt;article class="service"&gt;
     &lt;h3 id="centerstyle"&gt;Поддержка&lt;/h3&gt;
     &lt;p&gt;
-    Внедрение — установка программного обеспечения, обучение пользователей.
-    &lt;br /&gt;	Сопровождение — исправление выявленных ошибок, поддержка пользователей.
+    Внедрение — установка программного обеспечения.
+    &lt;br /&gt;	Сопровождение — исправление выявленных ошибок.
     &lt;/p&gt;
     &lt;/article&gt;
     &lt;/section&gt;
     &lt;div class="clear"&gt;&lt;/div&gt;
     &lt;/section&gt;
     &lt;div id="descriptionclient"&gt;
-    &lt;strong&gt;
+    
     Индивидуальная реализация проекта по требованиям заказчика.  Предлагаются услуги высококвалифицированных специалистов для определения эффективных вариантов реализации в соответствии с условиями и требованиями заказчика.
-    &lt;/strong&gt;
+    
     &lt;/div&gt;
 
 
@@ -79,12 +78,10 @@
     &lt;div class="clear"&gt;&lt;/div&gt;
     &lt;/section&gt;
     &lt;div id="descriptionclient"&gt;
-    &lt;strong&gt;
     Being client oriented company, we are focused on quality and always searching for optimal solution
     and creative ways for every project.
     We are oriented on quality of provided services, thus understanding the value of such key points of collaboration
-    as security, scalability, communication, visibility, meeting deadlines, budget and quality expectations is essential for us.
-    &lt;/strong&gt;
+    as security, scalability, communication, visibility, meeting deadlines, budget and quality expectations is essential for us.  
     &lt;/div&gt;
 
   </ENText>

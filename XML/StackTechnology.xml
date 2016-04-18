@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PageContent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PathToImage>./../../../Content/Images/technolagy.jpg.png</PathToImage>
+  <PathToImage>./../../../Content/Images/background.jpg</PathToImage>
   <RUText>
     &lt;div  id="cammondiv"&gt;
     &lt;h1 id="headerStack"&gt;&lt;strong&gt;Technology&lt;/strong&gt;&lt;/h1&gt;
@@ -55,18 +55,20 @@
     &lt;img class="hidden-mb" src="/Content/Images/Entechnolagy1.png" alt="" style="margin-top: 20px; height: 180px;" pagespeed_url_hash="2347499287" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"&gt;
     &lt;/div&gt;
     &lt;div class="text-blk-left"&gt;
-    &lt;h2&gt;Web Applications&lt;/h2&gt;
+    &lt;h2 style="margin-top: 21px;"&gt;We create our solutions with:&lt;/h2&gt;
 
-    &lt;p style="margin-top: 40px;"&gt;
-    Our services include:
-    &lt;br /&gt; Data storage technologies: SQL(MS SQL, mySQL, SQLite, PostgreSQL, Oracle), NoSQL(MongoDB, Redis)
-    &lt;br /&gt; Development technologies:
-    &lt;br /&gt;Net: WCF, WWF, WinService, WPF, ASP MVC, Entity, Xamarin, WinForm
-    &lt;br /&gt; JAVA: – JavaEE,JavaSE, GWTP,Spring Framework,Hibernate,JPA (Java Persistence API), Maven
-    &lt;/p&gt;
+    &lt;p style="margin-top: 10px;text-align: justify; "&gt;
+
+    &lt;br /&gt;&lt;strong  &gt; Data storage technologies:&lt;/strong&gt; SQL(MS SQL, mySQL, SQLite, PostgreSQL, Oracle), NoSQL(MongoDB, Redis)&lt;/p&gt;
+    &lt;br /&gt;&lt;strong &gt; Development technologies:&lt;/strong&gt;
+    &lt;div style="margin-left: 10px;"&gt;
+    &lt;strong&gt;.NET: &lt;/strong &gt; WCF, WWF, WinService, WPF, ASP MVC, Entity, Xamarin, WinForm
+    &lt;br /&gt; &lt;strong&gt;Java&lt;/strong&gt;:  JavaEE,JavaSE, GWTP,Spring Framework,Hibernate,JPA (Java Persistence API), Maven 
+    &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class="clearfix"&gt;&lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div id="technolagyrowtwo"&gt;
     &lt;div class="fixed-width text-blk center-blk"&gt;
@@ -76,9 +78,9 @@
     &lt;div class="text-blk-right" style="text-align: left;"&gt;
     &lt;h2&gt;Enterprise and Distributed Applications&lt;/h2&gt;
 
-    &lt;p style="margin: 40px 0;"&gt;
-    Data security: SSL, TSL, asymmetric and symmetric encryption, hash, MAC
-    &lt;br /&gt; Other tools: RabbitMQ, NLog, Log4net, Elastic, Logstash, DevXpress,
+    &lt;p style="margin: 40px 0;text-align: justify;"&gt;
+    &lt;strong&gt;Data security:&lt;/strong&gt; SSL, TSL, asymmetric and symmetric encryption, hash, MAC
+    &lt;br /&gt;&lt;strong&gt;Other tools:&lt;/strong&gt; RabbitMQ, NLog, Log4net, Elastic, Logstash, DevXpress,
     Netflix Ribbon, Esendex, Mandrill, Hazelcast,ReactiveRX Netty, Angular JS, webpack, nginx, Awaitility, Groovy on Grails,
     Jedis,CSS, HTML, wsdl, xslt, JEXEL, SoapUI, AccuRev,NodeJS, Twitter Bootstrap, RequireJS
     &lt;/p&gt;&lt;br&gt;

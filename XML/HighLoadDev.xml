@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PageContent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PathToImage>./../../../Content/Images/fondo-azul-celeste-abstracto.jpg</PathToImage>
+  <PathToImage>./../../../Content/Images/background.jpg</PathToImage>
   <RUText>
     &lt;div id="cell"&gt;
     &lt;div id="contentIndex"&gt;
-    &lt;h1 style="text-align :center; padding-bottom:10px"&gt;Наши решения&lt;/h1&gt;
+    &lt;h1 style="text-align :center;padding-bottom:21px;"&gt;Наши решения&lt;/h1&gt;
     &lt;div&gt;
+    &lt;section class="one_third service clearfix"&gt;
+    &lt;figure class="service-icon"&gt;
+    &lt;img src="/Content/Images/softwaredev.png" style="width: 100%;"&gt;
+    &lt;/figure&gt;
+    &lt;/section&gt;
     &lt;span&gt;&lt;p id="indexP"&gt;&lt;/p&gt;&lt;/span&gt;
     &lt;span style="text-align: justify;font-size :25px;"&gt;
-    &lt;p id="indexP" style="text-indent: 20px"&gt;
+    &lt;p id="indexP"&gt;
     Компания специализируется на разработке высоконагруженных, масштабируемых, отказоустойчивых back-end систем на базе многоуровневых, многослойных, сервис-ориентированных архитектурных решений. Основные направления разработки: клиент-ориентированные системы и системы сложных вычислительных задач.
     Компания предлагает выгодные ценовые решения с учетом конъюнктуры рынка. Открытое для клиента обсуждение стоимости реализации проекта. Минимизация стоимости продукта происходит за счет использования современных и прогрессивных средств разработки.
 
@@ -27,11 +32,16 @@
   <ENText>
     &lt;div id="cell"&gt;
     &lt;div id="contentIndex"&gt;
-    &lt;h1 style="text-align center;"&gt;Solution&lt;/h1&gt;
+    &lt;h1 style="    text-align: Right;padding-right: 30%;padding-bottom: 21px;"&gt;Solution&lt;/h1&gt;
     &lt;div&gt;
+    &lt;section class="one_third service clearfix"&gt;
+    &lt;figure class="service-icon"&gt;
+    &lt;img src="/Content/Images/softwaredev.png" style="width: 100%;"&gt;
+    &lt;/figure&gt;
+    &lt;/section&gt;
     &lt;span&gt;&lt;p id="indexP"&gt;Allow us to introduce to you our company. We are an IT development company located in Belarus.&lt;/p&gt;&lt;/span&gt;
     &lt;span style="text-align: justify;font-size :25px;"&gt;
-    &lt;p id="indexP" style="text-indent: 20px"&gt;
+    &lt;p id="indexp2"&gt;
     Our team is an experienced and dynamic developed IT professionals.
     We provide scalable, high available, fault tolerance and highload systems. Main areas are customer-oriented systems
     and complex systems for resolving any problems.

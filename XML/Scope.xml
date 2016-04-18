@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PageContent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PathToImage>./../../../Content/Images/technolagy.jpg.png</PathToImage>
+  <PathToImage>./../../../Content/Images/background.jpg</PathToImage>
   <RUText>
     &lt;div class="row application-area-block"&gt;
-    &lt;h2 style=" color: #000000;padding: 10px; text-align: center;"&gt;Область применения&lt;/h2&gt;
+    &lt;h2 style=" color: #3E4C6F;padding: 10px; text-align: center;"&gt;Область применения&lt;/h2&gt;
 
     &lt;div class="row application-area-block"&gt;
     &lt;div class="col-lg-4"&gt;
@@ -20,7 +20,7 @@
     &lt;div class="col-lg-12 "style="padding-left: 62px;"&gt;
     &lt;img class="imageGallery" src="/Content/Images/finance.png"&gt;
     &lt;/div&gt;
-    &lt;div class="col-lg-12" style="padding-left: 0px;"&gt;
+    &lt;div class="col-lg-12""&gt;
     Финансы и аналитика
     &lt;/div&gt;
     &lt;/div&gt;
@@ -48,7 +48,7 @@
     &lt;div class="col-lg-12" style="padding-left: 62px;"&gt;
     &lt;img class="imageGallery" src="/Content/Images/network.png"&gt;
     &lt;/div&gt;
-    &lt;div class="col-lg-12" style="padding-left:12px;"&gt;
+    &lt;div class="col-lg-12"&gt;
     Социальные сети
     &lt;/div&gt;
     &lt;/div&gt;
@@ -75,7 +75,7 @@
     &lt;div class="col-lg-12" style="padding-left: 62px;"&gt;
     &lt;img class="imageGallery" src="/Content/Images/transport.png" &gt;
     &lt;/div&gt;
-    &lt;div class="col-lg-12"style="padding-left: 0px;"&gt;
+    &lt;div class="col-lg-12"&gt;
     Транспорт и логистика
     &lt;/div&gt;
     &lt;/div&gt;
@@ -98,7 +98,7 @@
   </RUText>
   <ENText>
     &lt;div class="row application-area-block"&gt;
-    &lt;h2 style="color: #000000;padding: 10px; text-align: center; "&gt;Область применения&lt;/h2&gt;
+    &lt;h2 style="color: #3E4C6F;padding: 10px; text-align: center; "&gt;Scope&lt;/h2&gt;
 
     &lt;div class="row application-area-block"&gt;
     &lt;div class="col-lg-4"&gt;
@@ -115,7 +115,7 @@
     &lt;div class="col-lg-12 "style="padding-left: 62px;"&gt;
     &lt;img class="imageGallery" src="/Content/Images/finance.png"&gt;
     &lt;/div&gt;
-    &lt;div class="col-lg-12" style="padding-left: 0px;"&gt;
+    &lt;div class="col-lg-12"&gt;
     Finance and Analytics
     &lt;/div&gt;
     &lt;/div&gt;
@@ -143,7 +143,7 @@
     &lt;div class="col-lg-12" style="padding-left: 62px;"&gt;
     &lt;img class="imageGallery" src="/Content/Images/network.png"&gt;
     &lt;/div&gt;
-    &lt;div class="col-lg-12" style="padding-left:12px;"&gt;
+    &lt;div class="col-lg-12"&gt;
     Social networks
     &lt;/div&gt;
     &lt;/div&gt;
@@ -167,10 +167,10 @@
     &lt;/div&gt;
 
     &lt;div class="col-lg-4"&gt;
-    &lt;div class="col-lg-12" style="padding-left: 62px;"&gt;
+    &lt;div class="col-lg-12"&gt;
     &lt;img class="imageGallery" src="/Content/Images/transport.png" &gt;
     &lt;/div&gt;
-    &lt;div class="col-lg-12"style="padding-left: 0px;"&gt;
+    &lt;div class="col-lg-12"&gt;
     Transport and Logistic
     &lt;/div&gt;
     &lt;/div&gt;

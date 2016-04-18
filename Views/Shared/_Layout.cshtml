@@ -11,6 +11,15 @@
         
 </head>
 <body>
+    <script>
+
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+              
+            }
+
+          
+    </script>
     <div id="fixer">
         <div class="wrapper" id="header">
             <div class="row header">
@@ -22,7 +31,7 @@
                 <div class="col board">
                     <div class="row contact">
                         <ul>
-                            <li><span class="link icon-whatsapp">@Resources.Resource.Viber</span></li>
+                            <li><span class="link icon-whatsapp"><a href="tel:@Resources.Resource.Phone">@Resources.Resource.Phone</a></span></li>
                             <li><span class="link icon-skype"><a href="skype:ihighload?call">@Resources.Resource.Skype</a></span></li>
                             <li><span class="link icon-envelop"><a href="mailto:info@ihighload.info">@Resources.Resource.Mail</a></span></li>
                             <li><span> <a href="~/home/ChangeCulture?lang=en"><span>EN</span></a> <span>/</span> <a href="~/home/ChangeCulture?lang=ru"><span>RU</span></a></span></li>
@@ -36,6 +45,15 @@
                             <li><a href="#/home/Client"><span>@Resources.Resource.Client</span></a></li>
                             <li><a href="#/home/Scope"><span>@Resources.Resource.Scope</span></a></li>
                         </ul>
+                        @*<div class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Menu</a>
+                            <div class="dropdown-content">
+                                <a href="#/"><span>@Resources.Resource.ServerSolution</span></a>
+                                <a href="#/home/StackTechnology"><span>@Resources.Resource.Technology</span></a>
+                                <a href="#/home/Client"><span>@Resources.Resource.Client</span></a>
+                                <a href="#/home/Scope"><span>@Resources.Resource.Scope</span></a>
+                            </div>
+                        </div>*@
                     </div>
                 </div>
             </div>
@@ -45,7 +63,7 @@
         @Scripts.Render("~/bundles/bootstrap")
         @RenderSection("scripts", false)
         <div class="footer" id="footer">
-            <p style="text-align: center; padding-top:15px;">Copyright © 2016 ··· All Rights Reserved·</p>
+            <p style="text-align: center; padding-top:15px;">Copyright © 2016 All Rights Reserved·</p>
         </div>
     </div>
 </body>
