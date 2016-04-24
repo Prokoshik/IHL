@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PageContent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PathToImage>./../../../Content/Images/background.jpg</PathToImage>
+  <PathToImage>./../../../Content/Images/grbackground.jpg</PathToImage>
   <RUText>
     &lt;div  id="cammondiv"&gt;
-    &lt;h1 id="headerStack"&gt;&lt;strong&gt;Technology&lt;/strong&gt;&lt;/h1&gt;
+    &lt;h1 id="headerStack"&gt;&lt;strong&gt;Технологии&lt;/strong&gt;&lt;/h1&gt;
     &lt;div class="fixed-width text-blk"&gt;
     &lt;div class="text-blk-right"&gt;
-    &lt;img class="hidden-mb" src="/Content/Images/Entechnolagy1.png" alt="" style="margin-top: 20px; height: 180px;" pagespeed_url_hash="2347499287" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"&gt;
+    &lt;img class="hidden-mb img-stack-technolagy" src="/Content/Images/Entechnolagy1.png"  pagespeed_url_hash="2347499287" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"&gt;
     &lt;/div&gt;
     &lt;div class="text-blk-left"&gt;
-    &lt;h2&gt;Наши серверные решения разрабатываются с использованием следующих технологий&lt;/h2&gt;
+    &lt;h2  style="padding-top: 25px;"&gt;Для серверных решений:&lt;/h2&gt;
 
-    &lt;p style="margin-top: 40px;"&gt;
-    Our services include:
-    &lt;br /&gt; Реализация хранилищ: MS SQL, MySQL, NoSQL
-    &lt;br /&gt;.net технологии WCF, WWF, WinService
-    &lt;br /&gt;Безопасность на уровне данных и транспортном уровне:SSL, TSL, ассиметричное и симметричное шифрование, hash, MAC
+    &lt;p style="margin-top: 20px;"&gt;
+    &lt;br /&gt; &lt;strong&gt; Реализация хранилищ: &lt;/strong&gt; MS SQL, MySQL, NoSQL
+    &lt;br /&gt; &lt;strong&gt;.NET технологии: &lt;/strong&gt; WCF, WWF, WinService
+    &lt;br /&gt; &lt;strong&gt;Безопасность: &lt;/strong&gt;SSL, TSL,  шифрование, hash, MAC
     &lt;/p&gt;
     &lt;/div&gt;
     &lt;div class="clearfix"&gt;&lt;/div&gt;
     &lt;/div&gt;
 
     &lt;div id="technolagyrowtwo"&gt;
-    &lt;img class="hidden-mb" src="/Content/Images/EnTechnolagy.png" alt="" style="margin-top: 20px;height: 289px;
-    margin-left: 15%;margin-bottom: 3%;"&gt;
+    &lt;img class="hidden-mb img-stack-technolagy-left" src="/Content/Images/EnTechnolagy.png" alt="" &gt;
 
     &lt;div class="text-blk-right" style="text-align: left;"&gt;
-    &lt;h2&gt;Для представления данных предлагаем реализации front-end решений в виде&lt;/h2&gt;
+    &lt;h2&gt;Для клиентских приложений:&lt;/h2&gt;
 
     &lt;p style="margin: 40px 0;"&gt;
-    Desktop, Web, и мобильных кроссплатформенных приложений, с использованием технологий:
-    &lt;br/&gt;	Desktop: WPF, Winforms, DevExpress
-    &lt;br /&gt;	Web: ASP.NET MVC 5, Java
-    &lt;br /&gt;	Mobile: Xamarin, Java
+    &lt;br/&gt;	&lt;strong&gt;Desktop:&lt;/strong&gt; WPF, Winforms, DevExpress
+    &lt;br /&gt;&lt;strong&gt;	Web:&lt;/strong&gt; ASP.NET MVC 5, Java
+    &lt;br /&gt;	&lt;strong&gt;Mobile:&lt;/strong&gt; Xamarin, Java
+    &lt;br /&gt;&lt;strong&gt;Другие инструменты:&lt;/strong&gt; RabbitMQ, NLog, Log4net, Elastic, Logstash, DevXpress,
+    Netflix Ribbon,ReactiveRX Netty, Angular JS, webpack, nginx, Awaitility, Groovy on Grails,
+    Jedis,CSS, HTML, wsdl, xslt, JEXEL, SoapUI, AccuRev,NodeJS, Twitter Bootstrap, RequireJS
 
     &lt;/p&gt;&lt;br&gt;
     &lt;br&gt;
@@ -52,7 +52,7 @@
     &lt;h1 id="headerStack"&gt;&lt;strong&gt;Technology&lt;/strong&gt;&lt;/h1&gt;
     &lt;div class="fixed-width text-blk"&gt;
     &lt;div class="text-blk-right"&gt;
-    &lt;img class="hidden-mb" src="/Content/Images/Entechnolagy1.png" alt="" style="margin-top: 20px; height: 180px;" pagespeed_url_hash="2347499287" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"&gt;
+    &lt;img class="hidden-mb img-stack-technolagy" src="/Content/Images/Entechnolagy1.png" alt="" pagespeed_url_hash="2347499287" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"&gt;
     &lt;/div&gt;
     &lt;div class="text-blk-left"&gt;
     &lt;h2 style="margin-top: 21px;"&gt;We create our solutions with:&lt;/h2&gt;
@@ -72,11 +72,10 @@
 
     &lt;div id="technolagyrowtwo"&gt;
     &lt;div class="fixed-width text-blk center-blk"&gt;
-    &lt;img class="hidden-mb" src="/Content/Images/EnTechnolagy.png" alt="" style="margin-top: 20px;height: 289px;
-    margin-left: 15%;margin-bottom: 3%;"&gt;
+    &lt;img class="hidden-mb img-stack-technolagy-left" src="/Content/Images/EnTechnolagy.png" alt=""  &gt;
 
     &lt;div class="text-blk-right" style="text-align: left;"&gt;
-    &lt;h2&gt;Enterprise and Distributed Applications&lt;/h2&gt;
+   
 
     &lt;p style="margin: 40px 0;text-align: justify;"&gt;
     &lt;strong&gt;Data security:&lt;/strong&gt; SSL, TSL, asymmetric and symmetric encryption, hash, MAC

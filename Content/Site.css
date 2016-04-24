@@ -1,13 +1,17 @@
 ﻿
 body {
+    
 }
 
 #app {
     width: 100%;
    min-height: 100vh;
+   background-image: url(../../Content/Images/grbackground.jpg);
+ 
+   background-size: cover;
 }
 #content > div > div{
-    padding:100px 0 50px;
+    padding:140px 0 50px;
     
     width:100%;
 }
