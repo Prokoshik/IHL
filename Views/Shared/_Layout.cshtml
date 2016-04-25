@@ -18,23 +18,23 @@
         $(window).resize(function () {
             
             if (window.innerWidth > 641) {
-                alert("размер больше 641");
+               
                 var weightbrowse = window.innerWidth;
                 $('div.row.header').css("width", weightbrowse);
                 $('div.row.header').css("height", "100px");
                 if ($('#button-menu').length)
                 {
-                    alert("удаляем мобильное меню");
+                 
                     $("#qqqq").empty();
                     
                 }
             }
             else {
-                alert("размер меньше  641");
+                
                 var weightbrowse = window.innerWidth;
                 $('div.row.header').css("width", weightbrowse);
                 if ($("#menuselect").css("visibility") == "visible") {
-                    alert("если видимое тогда и оставляем видимое");
+                   
                     SmallHeader();
                     $("#menuselect").css("visibility", "visible");
                 }
@@ -68,9 +68,9 @@
 
         function SmallHeader() {
             var weightbrowse = window.innerWidth;
-            alert("нужно ли рисовать ");
+           
             if (weightbrowse < 641) {
-                alert("рисуем ");
+              
                 $("#qqqq").html('<button id="button-menu" onclick="ResizeHeader()"><hr class="menu-button-line" /><hr class="menu-button-line" /><hr class="menu-button-line" /></button><ul id="menuselect"><li><a href="#/">@Resources.Resource.ServerSolution</a></li><li style ="padding-left:5px;"><a href="#/home/StackTechnology">@Resources.Resource.Technology</a></li><li style ="padding-left:5px"><a href="#/home/Client">@Resources.Resource.Client</a></li><li style ="padding-left:5px"><a href="#/home/Scope">@Resources.Resource.Scope</a></li></ul><ul id="menuContact"><li><span class="link icon-whatsapp"><a href="tel:@Resources.Resource.Phone">@Resources.Resource.Phone</a></span></li><li><div class="dropdown link icon-skype"><span>ihighload</span><div class="dropdown-content" style="background-color: #ededed;border-radius:10px;"><a href="skype:ihighload?call">@Resources.Resource.Skype</a><a href="skype:ihighload?chat">@Resources.Resource.Chat</a></div></div></li><li><span class="link icon-envelop"><a href="mailto:info@ihighload.info">@Resources.Resource.Mail</a></span></li></ul></div>');
             }
 
