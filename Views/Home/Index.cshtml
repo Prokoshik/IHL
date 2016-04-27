@@ -1,9 +1,8 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-<div id="ContentWithBackground" style="background:url(@ViewBag.Path) no-repeat 0 0;background-size: cover;min-height: 100vh; display:table;">
-
-  @Html.Raw(Model);
-
+<div id="ContentWithBackground" style="background:url(@ViewBag.Path) no-repeat 0 0;background-size: cover;min-height: 100vh; ">
+@Html.Raw(Model)
+    
 </div>
 

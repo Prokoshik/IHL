@@ -13,42 +13,71 @@
         $(document).ready(function () {
             SmallHeader();
             ChangeRuFrontSize();
+
+            if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
+
+                //window.getComputedStyle($(' .menu li')[0], ':after');
+                ////var q = window.getComputedStyle($(' .menu li')[0], ':after').height
+                //var q = window.getComputedStyle($('.menu li')[0], ':after')
+                
+                //var q = document.querySelector("#Ulindex.li");
+                //console.log(q);
+                //q.classList
+
+                //var heightbrowse = window.innerHeight;
+                //$('#fixer').css("height", heightbrowse);
+               
+                //$('#app').css("height", document.querySelector("#fixer").clientHeight);
+
+                //var q = document.querySelector("#fixer");
+                //alert(q.style.height);
+                //q.style.height = heightbrowse;
+                //var q = document.querySelector("# header");
+                //q.style.height = heightbrowse;
+                //var q = document.querySelector("#app");
+                //q.style.height = heightbrowse;
+               
+               // var qq = $(this).children('#Ulindex');
+
+                //qq.removeClass('liafter').addClass('liafter2');
+                $('.liafter').addClass('liafter2').removeClass('liafter');
+
+
+            }
         });
 
         $(window).resize(function () {
-            
+
             if (window.innerWidth > 641) {
-               
+
                 var weightbrowse = window.innerWidth;
-                $('div.row.header').css("width", weightbrowse);
+                //$('div.row.header').css("width", weightbrowse);
                 $('div.row.header').css("height", "100px");
-                if ($('#button-menu').length)
-                {
-                 
+                if ($('#button-menu').length) {
+
                     $("#qqqq").empty();
-                    
+
                 }
             }
             else {
-                
+
                 var weightbrowse = window.innerWidth;
-                $('div.row.header').css("width", weightbrowse);
+                //$('div.row.header').css("width", weightbrowse);
                 if ($("#menuselect").css("visibility") == "visible") {
-                   
+
                     SmallHeader();
                     $("#menuselect").css("visibility", "visible");
                 }
                 else {
                     SmallHeader();
-                }           
-                
+                }
+
                 ChangeRuFrontSize();
             }
 
         });
 
-        function  ChangeRuFrontSize()
-        {
+        function ChangeRuFrontSize() {
             cookiesArray = document.cookie.split('; ');
             cookiesLang = cookiesArray[cookiesArray.length - 1];
             lang = cookiesLang.substr(cookiesLang.length - 2, 2)
@@ -57,21 +86,20 @@
                     $("#menuselect").css("font-size", "16px");
                 }
             }
-            if (window.innerWidth <375)
-            {
+            if (window.innerWidth < 375) {
                 if (lang == "ru") {
                     $("#menuselect").css("font-size", "14px");
                 }
-                
+
             }
         }
 
         function SmallHeader() {
             var weightbrowse = window.innerWidth;
-           
+
             if (weightbrowse < 641) {
-              
-                $("#qqqq").html('<button id="button-menu" onclick="ResizeHeader()"><hr class="menu-button-line" /><hr class="menu-button-line" /><hr class="menu-button-line" /></button><ul id="menuselect"><li><a href="#/">@Resources.Resource.ServerSolution</a></li><li style ="padding-left:5px;"><a href="#/home/StackTechnology">@Resources.Resource.Technology</a></li><li style ="padding-left:5px"><a href="#/home/Client">@Resources.Resource.Client</a></li><li style ="padding-left:5px"><a href="#/home/Scope">@Resources.Resource.Scope</a></li></ul><ul id="menuContact"><li><span class="link icon-whatsapp"><a href="tel:@Resources.Resource.Phone">@Resources.Resource.Phone</a></span></li><li><div class="dropdown link icon-skype"><span>ihighload</span><div class="dropdown-content" style="background-color: #ededed;border-radius:10px;"><a href="skype:ihighload?call">@Resources.Resource.Skype</a><a href="skype:ihighload?chat">@Resources.Resource.Chat</a></div></div></li><li><span class="link icon-envelop"><a href="mailto:info@ihighload.info">@Resources.Resource.Mail</a></span></li></ul></div>');
+
+                $("#qqqq").html('<button id="button-menu" onclick="ResizeHeader()"><hr class="menu-button-line" /><hr class="menu-button-line" /><hr class="menu-button-line" /></button><ul id="menuselect"><li id ="#liafter"><a href="#/">@Resources.Resource.ServerSolution</a></li><li  id ="#liafter" style ="padding-left:3px;"><a href="#/home/StackTechnology">@Resources.Resource.Technology</a></li><li  id ="#liafter" style ="padding-left:3px"><a href="#/home/Client">@Resources.Resource.Client</a></li><li  id ="#liafter" style ="padding-left:3px"><a href="#/home/Scope">@Resources.Resource.Scope</a></li></ul><ul id="menuContact"><li><span class="link icon-whatsapp"><a href="tel:@Resources.Resource.Phone">@Resources.Resource.Phone</a></span></li><li><div class="dropdown link icon-skype"><span>ihighload</span><div class="dropdown-content" style="background-color: #ededed;border-radius:10px;"><a href="skype:ihighload?call">@Resources.Resource.Skype</a><a href="skype:ihighload?chat">@Resources.Resource.Chat</a></div></div></li><li><span class="link icon-envelop"><a href="mailto:info@ihighload.info">@Resources.Resource.Mail</a></span></li></ul></div>');
             }
 
         }
@@ -82,7 +110,6 @@
             if ($("#headerq").height() == 100) {
                 var weightbrowse = window.innerWidth;
                 $('div.row.header').animate({
-                    width: weightbrowse,
                     height: 140
                 });
 
@@ -94,7 +121,6 @@
             }
             else {
                 $('div.row.header').animate({
-                    width: weightbrowse,
                     height: 100
                 });
                 $("#menuselect").css("visibility", "hidden");
@@ -144,10 +170,10 @@
                     </div>
                     <div class="row menu">
                         <ul id="Ulindex">
-                            <li><a href="#/"><span>@Resources.Resource.ServerSolution</span></a></li>
-                            <li><a href="#/home/StackTechnology"><span>@Resources.Resource.Technology</span></a></li>
-                            <li><a href="#/home/Client"><span>@Resources.Resource.Client</span></a></li>
-                            <li><a href="#/home/Scope"><span>@Resources.Resource.Scope</span></a></li>
+                            <li  class ="liafter" ><a href="#/"><span>@Resources.Resource.ServerSolution</span></a></li>
+                            <li  class ="liafter"><a href="#/home/StackTechnology"><span> @Resources.Resource.Technology</span></a></li>
+                            <li  class ="liafter"><a href="#/home/Client"><span> @Resources.Resource.Client</span></a></li>
+                            <li  class ="liafter"><a href="#/home/Scope"><span> @Resources.Resource.Scope </span></a></li>
                         </ul>
 
                     </div>

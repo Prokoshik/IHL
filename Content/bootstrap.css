@@ -400,10 +400,10 @@ img {
 }
 
 hr {
-    margin-top: 20px;
+   margin-top: 22%;
     margin-bottom: 20px;
     border: 0;
-    border-top: 1px solid #eeeeee;
+    border-top: 3px solid #428bca;
 }
 
 .sr-only {

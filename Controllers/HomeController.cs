@@ -32,6 +32,7 @@ namespace Northwind.Web.Controllers
             {
                 strhtml = new HtmlString(pageContent.RUText);
 
+
             }
             else
             {

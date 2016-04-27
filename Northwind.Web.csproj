@@ -171,11 +171,7 @@
     <None Include="Properties\PublishProfiles\Ihighload.pubxml" />
     <None Include="Scripts\jquery-2.2.2.intellisense.js" />
     <Content Include="Content\Header.css" />
-    <Content Include="Content\Images\backgraund.jpg" />
-    <Content Include="Content\Images\Background-Gradient1.jpg" />
-    <Content Include="Content\Images\background.jpg" />
     <Content Include="Content\Images\brand.png" />
-    <Content Include="Content\Images\client.png" />
     <Content Include="Content\Images\comunication.png" />
     <Content Include="Content\Images\disign.png" />
     <Content Include="Content\Images\EnTechnolagy.png" />
@@ -183,6 +179,7 @@
     <Content Include="Content\Images\entertainment.png" />
     <Content Include="Content\Images\finance.png" />
     <Content Include="Content\Images\fondo-azul-celeste-abstracto.jpg" />
+    <Content Include="Content\Images\grbackground.jpg" />
     <Content Include="Content\Images\mail.PNG" />
     <Content Include="Content\Images\med.png" />
     <Content Include="Content\Images\network.png" />
@@ -190,14 +187,12 @@
     <Content Include="Content\Images\Preparation.png" />
     <Content Include="Content\Images\science.png" />
     <Content Include="Content\Images\scope.png" />
-    <Content Include="Content\Images\serverSln.png" />
     <Content Include="Content\Images\skype.png" />
     <Content Include="Content\Images\social.png" />
     <Content Include="Content\Images\software-development.png" />
     <Content Include="Content\Images\softwaredev.png" />
     <Content Include="Content\Images\spfera.png" />
     <Content Include="Content\Images\Support.png" />
-    <Content Include="Content\Images\technolagy.jpg.png" />
     <Content Include="Content\Images\transport.png" />
     <Content Include="Content\Images\viber.png" />
     <Content Include="Scripts\jquery-2.2.2.js" />
@@ -368,7 +363,9 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="XML\HighLoadDev.xml" />
+    <Content Include="XML\HighLoadDev.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\app\app.js" />
     <Content Include="Scripts\classie.js" />
     <Content Include="Scripts\app\main.js" />

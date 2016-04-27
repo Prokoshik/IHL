@@ -1,7 +1,7 @@
 ﻿
 define(['kendo'],
     function (kendo) {
-        var router = new kendo.Router(),
+        var router = new kendo.Router();
             layout = new kendo.Layout("<div id='content'></div>");
 
         layout.render($("#app"));

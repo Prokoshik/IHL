@@ -61,6 +61,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Чат.
+        /// </summary>
+        public static string Chat {
+            get {
+                return ResourceManager.GetString("Chat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Клиент.
         /// </summary>
         public static string Client {
@@ -88,7 +97,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to +375293404040.
+        ///   Looks up a localized string similar to +375333404040.
         /// </summary>
         public static string Phone {
             get {
@@ -97,7 +106,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Область применения.
+        ///   Looks up a localized string similar to Cфера.
         /// </summary>
         public static string Scope {
             get {
@@ -106,7 +115,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Серверные решения.
+        ///   Looks up a localized string similar to Решения.
         /// </summary>
         public static string ServerSolution {
             get {

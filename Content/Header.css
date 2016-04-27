@@ -311,7 +311,21 @@ ul:not(.UlIndex,.UlTechnology) {
     position: relative;
 }
 
-    .menu li:after {
+    /*.menu li:after { оставить только это
+        content: "";
+        display: block;
+        height: 60%;
+        padding: 5px 0;
+        width: 1px;
+        background: #8d8d8d;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate3d(0, -50%, 0);
+        opacity: 0.3;
+    }*/
+
+    .liafter:after {
         content: "";
         display: block;
         height: 60%;
@@ -324,6 +338,22 @@ ul:not(.UlIndex,.UlTechnology) {
         transform: translate3d(0, -50%, 0);
         opacity: 0.3;
     }
+     .liafter2 :after {
+        content: "";
+        display: block;
+        height: 40%;
+        padding: 5px 0;
+        width: 1px;
+        background: #8d8d8d;
+        position: absolute;
+        top: 33%;
+        right: 0;
+        transform: translate3d(0, -50%, 0);
+        opacity: 0.3;
+    }
+   
+
+
 
     .menu li:last-child:after {
         display: none;
@@ -690,10 +720,38 @@ ul:not(.UlIndex,.UlTechnology) {
         height: 100px;
         width: 100%;
     }
-    #menuselect ul li {
-        padding-left: 10px;
+     #cammondiv {
+        width: 90%;
+        padding-left: 15%;
     }
 
+    #menuselect  li {
+        padding-bottom: 0px !important;
+    }
+    hr {
+   margin-top: 22%;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 3px solid #428bca;
+}
+   #menuselect li:after {
+    content: "";
+    display: inline-table;
+    height: 60%;
+    padding: 7px 0;
+    width: 1px;
+    background: #8d8d8d;
+
+    top: 50%;
+    right: 0;
+    transform: translate3d(0, -50%, 0);
+    opacity: 0.7;
+}
+   a {
+    color: #428bca;
+    text-decoration: none;
+    padding-right: 4px;
+}
     #button-menu {
         height: 50px;
         width: 50px;

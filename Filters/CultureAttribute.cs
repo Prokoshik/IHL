@@ -41,7 +41,7 @@ namespace Northwind.Web.Filters
             List<string> cultures = new List<string>() { "ru", "en" };
             if (!cultures.Contains(cultureName))
             {
-                cultureName = "ru";
+                cultureName = "en";
             }
 
             Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(cultureName);

@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PageContent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PathToImage>./../../../Content/Images/background.jpg</PathToImage>
+  <PathToImage>./../../../Content/Images/grbackground.jpg</PathToImage>
   <RUText>
-    &lt;h2 id="headerStack" style="margin-top :10px;"&gt;КомпанияоОбеспечивает полный цикл разработки:&lt;/h2&gt;
+    &lt;h2 id="headerStack" style="margin-top :10px;"&gt;Компания обеспечивает полный цикл разработки:&lt;/h2&gt;
     &lt;section class="service-columns clearfix home-border imageclient" style=""&gt;
     &lt;section class="one_third service clearfix"&gt;
     &lt;figure class="service-icon"&gt;
     &lt;img src="/Content/Images/Preparation.png" style="margin-right: 5px;width: 100%;"&gt;
     &lt;/figure&gt;
     &lt;article class="service"&gt;
-    &lt;h3 id="centerstyle"&gt;Подготовка&lt;/h3&gt;
-    &lt;p&gt;Cбор и обработка требований. Предварительное планирование этапов работ, сроков, ресурсов и стоимости&lt;/p&gt;
+    &lt;h3 id="centerstyle"&gt; &lt;strong&gt;Подготовка &lt;/strong&gt;&lt;/h3&gt;
+    &lt;p&gt;Cбор и обработка требований. 
+    &lt;br /&gt; Планирование этапов:
+    &lt;br /&gt; работ
+    &lt;br /&gt; сроков,
+    &lt;br /&gt;ресурсов и стоимости&lt;/p&gt;
     &lt;/article&gt;
     &lt;/section&gt;
     &lt;section class="one_third service clearfix"&gt;
@@ -18,12 +22,12 @@
     &lt;img src="/Content/Images/disign.png" style="width: 100%;"&gt;
     &lt;/figure&gt;
     &lt;article class="service"&gt;
-    &lt;h3 id="centerstyle"&gt;Проектирование и Создание&lt;/h3&gt;
+    &lt;h3 id="centerstyle"&gt; &lt;strong&gt;Проектирование и Создание &lt;/strong&gt;&lt;/h3&gt;
     &lt;p&gt;
     Дизайн.
-   	Кодирование.
-   	Тестирование.
-   	Документирование.
+    &lt;br /&gt; Кодирование.
+    &lt;br /&gt;	Тестирование.
+    &lt;br /&gt;	Документирование.
     &lt;/article&gt;
     &lt;/section&gt;
     &lt;section class="one_third last service clearfix"&gt;
@@ -31,10 +35,10 @@
     &lt;img src="/Content/Images/Support.png" style="width: 100%;"&gt;
     &lt;/figure&gt;
     &lt;article class="service"&gt;
-    &lt;h3 id="centerstyle"&gt;Поддержка&lt;/h3&gt;
+    &lt;h3 id="centerstyle"&gt; &lt;strong&gt;Поддержка &lt;/strong&gt;&lt;/h3&gt;
     &lt;p&gt;
-    Внедрение — установка программного обеспечения.
-    &lt;br /&gt;	Сопровождение — исправление выявленных ошибок.
+    Внедрение
+    &lt;br /&gt;	Сопровождение
     &lt;/p&gt;
     &lt;/article&gt;
     &lt;/section&gt;
@@ -56,7 +60,7 @@
     &lt;img src="/Content/Images/Preparation.png" style="margin-right: 5px;width: 100%;"&gt;
     &lt;/figure&gt;
     &lt;article class="service"&gt;
-    &lt;h3 id="centerstyle"&gt;Preparation&lt;/h3&gt;
+    &lt;h3 id="centerstyle"&gt;&lt;strong&gt;Preparation&lt;/strong&gt;&lt;/h3&gt;
     &lt;/article&gt;
     &lt;/section&gt;
     &lt;section class="one_third service clearfix"&gt;
@@ -64,7 +68,7 @@
     &lt;img src="/Content/Images/disign.png" style="width: 100%;"&gt;
     &lt;/figure&gt;
     &lt;article class="service"&gt;
-    &lt;h3 id="centerstyle"&gt;Design and Creation&lt;/h3&gt;
+    &lt;h3 id="centerstyle"&gt;&lt;strong &gt;Design and Creation&lt;/strong &gt;&lt;/h3&gt;
     &lt;/article&gt;
     &lt;/section&gt;
     &lt;section class="one_third last service clearfix"&gt;
@@ -72,7 +76,7 @@
     &lt;img src="/Content/Images/Support.png" style="width: 100%;"&gt;
     &lt;/figure&gt;
     &lt;article class="service"&gt;
-    &lt;h3 id="centerstyle"&gt;Support&lt;/h3&gt;
+    &lt;h3 id="centerstyle"&gt;&lt;strong &gt;Support&lt;/strong &gt;&lt;/h3&gt;
     &lt;/article&gt;
     &lt;/section&gt;
     &lt;div class="clear"&gt;&lt;/div&gt;
