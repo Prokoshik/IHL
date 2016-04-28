@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using Northwind.Web.Filters;
 using System.Threading;
 using System.Globalization;
+using Northwind.Web.helper;
 
 #endregion
 
@@ -16,6 +17,8 @@ namespace Northwind.Web.Controllers
     [Culture]
     public class HomeController : Controller
     {
+        public static ListRequest listRequest = new ListRequest();
+      
         public ActionResult Spa()
         {
             return View();
@@ -23,7 +26,6 @@ namespace Northwind.Web.Controllers
 
         public ActionResult Index()
         {
-
             IHtmlString strhtml;
             var pageContent = LoadXMLData("HighLoadDev.xml");
             ViewBag.Path = pageContent.PathToImage;
@@ -80,6 +82,7 @@ namespace Northwind.Web.Controllers
         }
         public ActionResult ClientApplicationDev()
         {
+            
             var pageContent = LoadXMLData("ClientApplicationDev.xml");
             ViewBag.Path = pageContent.PathToImage;
             var culture = HttpContext.Request.Cookies["lang"].Value;
@@ -115,16 +118,20 @@ namespace Northwind.Web.Controllers
 
         private PageContent LoadXMLData(string xnlName)
         {
+            var q = Request.Url.AbsolutePath.ToString();
+            listRequest.AddRequest(q);
             String rootPath = Server.MapPath("~");
             var path = rootPath + "Xml\\" + xnlName;
             var pageContent = new PageContent(path);
             return pageContent;
+
+           
         }
 
         public ActionResult ChangeCulture(string lang)
         {
 
-            string currentUrl = Request.UrlReferrer.AbsolutePath;
+            var currentUrl = listRequest[listRequest.Count - 1];
             List<string> culturies = new List<string>() { "ru", "en" };
             if (!culturies.Contains(lang))
             {

@@ -311,7 +311,7 @@ ul:not(.UlIndex,.UlTechnology) {
     position: relative;
 }
 
-    /*.menu li:after { оставить только это
+/*.menu li:after { оставить только это
         content: "";
         display: block;
         height: 60%;
@@ -325,52 +325,40 @@ ul:not(.UlIndex,.UlTechnology) {
         opacity: 0.3;
     }*/
 
-    .liafter:after {
-        content: "";
-        display: block;
-        height: 60%;
-        padding: 5px 0;
-        width: 1px;
-        background: #8d8d8d;
-        position: absolute;
-        top: 50%;
-        right: 0;
-        transform: translate3d(0, -50%, 0);
-        opacity: 0.3;
-    }
-     .liafter2 :after {
-        content: "";
-        display: block;
-        height: 40%;
-        padding: 5px 0;
-        width: 1px;
-        background: #8d8d8d;
-        position: absolute;
-        top: 33%;
-        right: 0;
-        transform: translate3d(0, -50%, 0);
-        opacity: 0.3;
-    }
-   
+.liafter {
+    background-image: url(../../../../Content/Images/linedot.png);
+    background-position-y: 50%;
+    background-position-x: 100%;
+    background-size: 1px 25px;
+    background-repeat: no-repeat;
+    
+}
+
+.liafter2 :after {
+    background-image: url(../../../../Content/Images/linedot.png);
+    background-position: 100% 50%;
+    background-size: 1px 25px;
+    background-repeat: no-repeat;
+}
 
 
 
-    .menu li:last-child:after {
-        display: none;
-    }
 
-    .menu li a {
-        display: table;
-        padding: 0 20px;
-        height: 100%;
-        text-decoration: none;
-    }
+.menu li:last-child:after {
+    display: none;
+}
+
+.menu li a {
+    display: table;
+    padding: 0 20px;
+    height: 100%;
+    text-decoration: none;
+}
 
 .menu a span {
     font: 400 1.3em/1 "Calibri";
     display: table-cell;
     vertical-align: middle;
-    text-transform: uppercase;
 }
 
 .contact ul > li {
@@ -599,39 +587,43 @@ ul:not(.UlIndex,.UlTechnology) {
 }
 
 @media all and (max-width:800px) {
-   
-    .logo {
-    width: 20%;
-    display: block;
-}
-    .board {
-    width: 80%;
-}
-    #brandP {
-    font-size: 20px;
-    /* padding-top: 22px; */
-   
-    padding-top:0px;
-}
-    .brandImage {
-    border: 1px solid #eee;
-    height: 60px;
-}
-    .menu li a {
-    display: table;
-    padding: 0 5px;
-    height: 100%;
-    text-decoration: none;
-}
-    .col {
-    padding: 0px 10px;
-    float: left;
-    height: 100%;
-}
-    .contact ul > li {
-    padding: 0 20px;
-}
 
+    .logo {
+        width: 20%;
+        display: block;
+    }
+
+    .board {
+        width: 80%;
+    }
+
+    #brandP {
+        font-size: 20px;
+        /* padding-top: 22px; */
+        padding-top: 0px;
+    }
+
+    .brandImage {
+        border: 1px solid #eee;
+        height: 60px;
+    }
+
+    .menu li a {
+        display: table;
+        padding: 0 5px;
+        height: 100%;
+        text-decoration: none;
+    }
+
+    .col {
+        padding: 0px 10px;
+        float: left;
+        height: 100%;
+    }
+
+    .contact ul > li {
+        padding: 0 20px;
+    }
 }
 
 @media all and (max-width:376px) {
@@ -697,7 +689,7 @@ ul:not(.UlIndex,.UlTechnology) {
         height: 21px;
         background-image: url(../../Content/Images/mail.PNG);
         background-size: cover;
-        left: 134px  !important;
+        left: 134px !important;
         top: 51px;
     }
 
@@ -712,7 +704,6 @@ ul:not(.UlIndex,.UlTechnology) {
         left: 134px !important;
         top: 0px;
     }
-  
 }
 
 @media all and (max-width:641px) {
@@ -720,38 +711,42 @@ ul:not(.UlIndex,.UlTechnology) {
         height: 100px;
         width: 100%;
     }
-     #cammondiv {
+
+    #cammondiv {
         width: 90%;
         padding-left: 15%;
     }
 
-    #menuselect  li {
+    #menuselect li {
         padding-bottom: 0px !important;
     }
-    hr {
-   margin-top: 22%;
-    margin-bottom: 20px;
-    border: 0;
-    border-top: 3px solid #428bca;
-}
-   #menuselect li:after {
-    content: "";
-    display: inline-table;
-    height: 60%;
-    padding: 7px 0;
-    width: 1px;
-    background: #8d8d8d;
 
-    top: 50%;
-    right: 0;
-    transform: translate3d(0, -50%, 0);
-    opacity: 0.7;
-}
-   a {
-    color: #428bca;
-    text-decoration: none;
-    padding-right: 4px;
-}
+    hr {
+        margin-top: 22%;
+        margin-bottom: 20px;
+        border: 0;
+        border-top: 3px solid #428bca;
+    }
+
+    /*#menuselect li:after {
+        content: "";
+        display: inline-table;
+        height: 60%;
+        padding: 7px 0;
+        width: 1px;
+        background: #8d8d8d;
+        top: 50%;
+        right: 0;
+        transform: translate3d(0, -50%, 0);
+        opacity: 0.7;
+    }*/
+
+    a {
+        color: #428bca;
+        text-decoration: none;
+        padding-right: 4px;
+    }
+
     #button-menu {
         height: 50px;
         width: 50px;
@@ -943,8 +938,8 @@ ul:not(.UlIndex,.UlTechnology) {
         margin-left: 50px;
         max-width: 500px;*/
         float: left;
-        margin-left: 50px;
-        max-width: 61%;
+        margin-left: 40px;
+        max-width: 58%;
     }
 
     .menu ul, .contact ul {
@@ -1083,7 +1078,13 @@ ul:not(.UlIndex,.UlTechnology) {
 }
 
 @-moz-document url-prefix() {
+    .liafter {
+    background-image: url(../../../../Content/Images/linedot.png);
+    background-position: 100% 50%;
+    background-size: 1px 25px;
+    background-repeat: no-repeat;
 
+}
 
     .icon-whatsapp:before {
         content: '';
