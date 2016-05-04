@@ -331,7 +331,6 @@ ul:not(.UlIndex,.UlTechnology) {
     background-position-x: 100%;
     background-size: 1px 25px;
     background-repeat: no-repeat;
-    
 }
 
 .liafter2 :after {
@@ -408,7 +407,7 @@ ul:not(.UlIndex,.UlTechnology) {
     background-image: url(../../Content/Images/skype.png);
     background-size: cover;
     left: -35px;
-    top: -5px;
+    top: -7px;
 }
 
 .icon-envelop:before {
@@ -626,20 +625,16 @@ ul:not(.UlIndex,.UlTechnology) {
     }
 }
 
-@media all and (max-width:376px) {
+@media all and (max-width:402px) {
+
     .icon-skype:before {
-        content: '';
-        display: block;
-        position: absolute;
-        width: 23px;
-        height: 23px;
-        background-image: url(../../Content/Images/skype.png);
-        background-size: cover;
-        left: -35px;
-        top: -3px;
+        left: 145px !important;
+        top: 25px;
     }
 
-
+    #menuContact {
+        width: 48vw !important;
+    }
 
     .icon-envelop:before {
         content: '';
@@ -667,19 +662,12 @@ ul:not(.UlIndex,.UlTechnology) {
 }
 
 @media all and (max-width:321px) {
+
+
     .icon-skype:before {
-        content: '';
-        display: block;
-        position: absolute;
-        width: 23px;
-        height: 23px;
-        background-image: url(../../Content/Images/skype.png);
-        background-size: cover;
-        left: -35px;
-        top: -3px;
+        left: 134px !important;
+        top: 25px;
     }
-
-
 
     .icon-envelop:before {
         content: '';
@@ -707,6 +695,11 @@ ul:not(.UlIndex,.UlTechnology) {
 }
 
 @media all and (max-width:641px) {
+    .dropdown {
+        position: inherit !important;
+        display: inline-block;
+    }
+
     #qqqq {
         height: 100px;
         width: 100%;
@@ -794,8 +787,8 @@ ul:not(.UlIndex,.UlTechnology) {
         height: 23px;
         background-image: url(../../Content/Images/skype.png);
         background-size: cover;
-        left: -35px;
-        top: -3px;
+        left: 160px;
+        top: 25px;
     }
 
 
@@ -826,6 +819,7 @@ ul:not(.UlIndex,.UlTechnology) {
 
     .board ul li {
         padding-bottom: 10px;
+        float: left;
     }
 
     .menu-button-line {
@@ -1079,12 +1073,11 @@ ul:not(.UlIndex,.UlTechnology) {
 
 @-moz-document url-prefix() {
     .liafter {
-    background-image: url(../../../../Content/Images/linedot.png);
-    background-position: 100% 50%;
-    background-size: 1px 25px;
-    background-repeat: no-repeat;
-
-}
+        background-image: url(../../../../Content/Images/linedot.png);
+        background-position: 100% 50%;
+        background-size: 1px 25px;
+        background-repeat: no-repeat;
+    }
 
     .icon-whatsapp:before {
         content: '';

@@ -53,7 +53,8 @@
 
             $(".movie").click(function (e) {
                 e.preventDefault();
-                $.get("@Url.Action("ChangeCulture","Home")", { lang: $(this).data("lang")})
+                $.get("@Url.Action("ChangeCulture","Home")", { lang: $(this).data("lang") })
+                window.location.reload();
             });
         });
 
