@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PageContent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PathToImage>./../../../Content/Images/grbackground.jpg</PathToImage>
+ 
   <RUText>
     &lt;div class="row application-area-block"&gt;
     &lt;h2 style=" color: #3E4C6F;padding: 10px; text-align: center;"&gt;Область применения&lt;/h2&gt;

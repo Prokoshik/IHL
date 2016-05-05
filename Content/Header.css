@@ -633,7 +633,7 @@ ul:not(.UlIndex,.UlTechnology) {
     }
 
     #menuContact {
-        width: 48vw !important;
+        width: 49vw !important;
     }
 
     .icon-envelop:before {
@@ -691,6 +691,12 @@ ul:not(.UlIndex,.UlTechnology) {
         background-size: cover;
         left: 134px !important;
         top: 0px;
+    }
+}
+
+@media all and (max-width:345px) {
+    #menuselect {
+        font-size: 15px !important;
     }
 }
 
@@ -819,7 +825,6 @@ ul:not(.UlIndex,.UlTechnology) {
 
     .board ul li {
         padding-bottom: 10px;
-        float: left;
     }
 
     .menu-button-line {
@@ -1072,6 +1077,23 @@ ul:not(.UlIndex,.UlTechnology) {
 }
 
 @-moz-document url-prefix() {
+    @media all and (max-width:641px) {
+        .icon-whatsapp:before {
+            width: 24px !important;
+            height: 24px !important;
+        }
+
+        .icon-skype:before {
+            width: 25px !important;
+            height: 25px !important;
+        }
+
+        .icon-envelop:before {
+            width: 25px !important;
+            height: 25px !important;
+        }
+    }
+
     .liafter {
         background-image: url(../../../../Content/Images/linedot.png);
         background-position: 100% 50%;
@@ -1087,8 +1109,6 @@ ul:not(.UlIndex,.UlTechnology) {
         height: 30px;
         background-image: url(../../Content/Images/phone.png);
         background-size: cover;
-        left: -35px;
-        top: 1px;
     }
 
     .icon-skype:before {
@@ -1099,8 +1119,6 @@ ul:not(.UlIndex,.UlTechnology) {
         height: 33px;
         background-image: url(../../Content/Images/skype.png);
         background-size: cover;
-        left: -35px;
-        top: -4px;
     }
 
     .icon-envelop:before {
@@ -1111,8 +1129,6 @@ ul:not(.UlIndex,.UlTechnology) {
         height: 30px;
         background-image: url(../../Content/Images/mail.PNG);
         background-size: cover;
-        left: -35px;
-        top: 1px;
     }
 
 
@@ -1127,5 +1143,10 @@ ul:not(.UlIndex,.UlTechnology) {
     #cell {
         vertical-align: middle;
         padding-top: 5%;
+    }
+
+    .board ul li {
+        padding-bottom: 10px;
+        float: left;
     }
 }

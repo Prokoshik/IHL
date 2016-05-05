@@ -28,7 +28,7 @@ namespace Northwind.Web.Controllers
         {
             IHtmlString strhtml;
             var pageContent = LoadXMLData("HighLoadDev.xml");
-            ViewBag.Path = pageContent.PathToImage;
+           
             var culture = HttpContext.Request.Cookies["lang"].Value;
             if (string.Compare(culture, "ru") == 0)
             {
@@ -50,7 +50,7 @@ namespace Northwind.Web.Controllers
         public ActionResult Scope()
         {
             var pageContent = LoadXMLData("Scope.xml");
-            ViewBag.Path = pageContent.PathToImage;
+          
             var culture = HttpContext.Request.Cookies["lang"].Value;
             if (String.Compare(culture, "ru") == 0)
             {
@@ -67,7 +67,7 @@ namespace Northwind.Web.Controllers
         public ActionResult Client()
         {
             var pageContent = LoadXMLData("Client.xml");
-            ViewBag.Path = pageContent.PathToImage;
+         
             var culture = HttpContext.Request.Cookies["lang"].Value;
             if (String.Compare(culture, "ru") == 0)
             {
@@ -84,7 +84,7 @@ namespace Northwind.Web.Controllers
         {
             
             var pageContent = LoadXMLData("ClientApplicationDev.xml");
-            ViewBag.Path = pageContent.PathToImage;
+           
             var culture = HttpContext.Request.Cookies["lang"].Value;
             if (String.Compare(culture, "ru") == 0)
             {
@@ -101,7 +101,7 @@ namespace Northwind.Web.Controllers
         public ActionResult StackTechnology()
         {
             var pageContent = LoadXMLData("StackTechnology.xml");
-            ViewBag.Path = pageContent.PathToImage;
+           
             var culture = HttpContext.Request.Cookies["lang"].Value;
             if (String.Compare(culture, "ru") == 0)
             {

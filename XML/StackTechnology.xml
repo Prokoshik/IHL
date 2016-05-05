@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PageContent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PathToImage>./../../../Content/Images/grbackground.jpg</PathToImage>
+
   <RUText>
     &lt;div  id="cammondiv"&gt;
     &lt;h1 id="headerStack"&gt;&lt;strong&gt;Технологии&lt;/strong&gt;&lt;/h1&gt;

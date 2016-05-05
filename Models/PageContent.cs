@@ -13,7 +13,7 @@ namespace Northwind.Web.Models
     [Serializable]
     public class PageContent
     {
-        public string PathToImage;
+    
         public string RUText;
         public string ENText;
         public PageContent() { }
@@ -26,7 +26,7 @@ namespace Northwind.Web.Models
             using (var logReader = new StreamReader(pathToXml))
             {
                 pageContent = logsSerializer.Deserialize(logReader) as PageContent;  
-                PathToImage = pageContent.PathToImage;
+               
                 RUText = pageContent.RUText;
                 ENText = pageContent.ENText;
 

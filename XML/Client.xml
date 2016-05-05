@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PageContent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PathToImage>./../../../Content/Images/grbackground.jpg</PathToImage>
+  
   <RUText>
     &lt;h2 id="headerStack" style="margin-top :10px;"&gt;Компания обеспечивает весь цикл разработки:&lt;/h2&gt;
     &lt;section class="service-columns clearfix home-border imageclient" style=""&gt;
