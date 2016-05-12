@@ -13,7 +13,6 @@
         $(document).ready(function () {
             SmallHeader();
             ChangeRuFrontSize();
-           
 
         });
 
@@ -23,7 +22,7 @@
             if (window.innerWidth > 641) {
 
                 var weightbrowse = window.innerWidth;
-                //$('div.row.header').css("width", weightbrowse);
+                
                 $('div.row.header').css("height", "100px");
                 if ($('#button-menu').length) {
 
@@ -32,47 +31,53 @@
                 }
             }
             else {
-
                 var weightbrowse = window.innerWidth;
                 //$('div.row.header').css("width", weightbrowse);
                 if ($("#menuselect").css("visibility") == "visible") {
-
                     SmallHeader();
+                    //location.reload();
+                   
                     $("#menuselect").css("visibility", "visible");
+                    if (weightbrowse > 500) {
+                        $("#menuselect").css("padding-left", "22vw");
+                    }
                 }
                 else {
+
                     SmallHeader();
+                    if (weightbrowse > 500) {
+                        $("#menuselect").css("padding-left", "22vw");
+                    }
+                  
+                    //location.reload();
                 }
 
                 ChangeRuFrontSize();
             }
-
+           
         });
 
 
         $(function () {
-
             $(".movie").click(function (e) {
-                
-               
+                e.preventDefault();
                 $.ajax({
                     type: "GET",
-                    url:'@Url.Action("ChangeCulture", "Home")',
-                    data: { lang: $(this).data("lang")},
+                    url: '@Url.Action("ChangeCulture", "Home")',
                     async: false,
-                })
+                    data: { lang: $(this).data("lang") },
+                    success: function () {
+                        window.location.reload();
 
-                @*$.get("@Url.Action("ChangeCulture","Home")", { lang: $(this).data("lang") })
-                e.preventDefault();*@
-                window.location.reload();
+                    }
+                });
             });
-
         });
 
         function ChangeRuFrontSize() {
-            cookiesArray = document.cookie.split('; ');
-            cookiesLang = cookiesArray[cookiesArray.length - 1];
-            lang = cookiesLang.substr(cookiesLang.length - 2, 2)
+           var  cookiesArray = document.cookie.split('; ');
+           var cookiesLang = cookiesArray[cookiesArray.length - 1];
+            lang = cookiesLang.substr(cookiesLang.length - 2, 2);
             if (window.innerWidth < 425) {
                 if (lang == "ru") {
                     $("#menuselect").css("font-size", "16px");
@@ -90,11 +95,8 @@
             var weightbrowse = window.innerWidth;
 
             if (weightbrowse < 641) {
-                if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
-                    $('.board ul li').css("float", "none");
-                }
-                $("#qqqq").html('<button id="button-menu" onclick="ResizeHeader()"><hr class="menu-button-line" /><hr class="menu-button-line" /><hr class="menu-button-line" /></button><ul id="menuselect"><li  class="liafter" ><a href="#/">@Resources.Resource.ServerSolution</a></li><li  class="liafter" style ="padding-left:3px;"><a href="#/home/StackTechnology">@Resources.Resource.Technology</a></li><li  class="liafter"  style ="padding-left:3px"><a href="#/home/Client">@Resources.Resource.Client</a></li><li   style ="padding-left:3px"><a href="#/home/Scope">@Resources.Resource.Scope</a></li></ul><ul id="menuContact"><li><span class="link icon-whatsapp"><a href="tel:@Resources.Resource.Phone">@Resources.Resource.Phone</a></span></li><li><div class="dropdown link icon-skype"><span>ihighload</span><div class="dropdown-content" style="background-color: #ededed;border-radius:10px;"><a href="skype:ihighload?call">@Resources.Resource.Skype</a><a href="skype:ihighload?chat">@Resources.Resource.Chat</a></div></div></li><li><span class="link icon-envelop"><a href="mailto:info@ihighload.info">@Resources.Resource.Mail</a></span></li><li><span> <a href="#" data-lang="en" class="movie"><span>EN</span></a> <span>/</span> <a href="#" data-lang="ru" class="movie"><span>RU</span></a></span></li></ul></div> ');
 
+                $("#qqqq").html('<button id="button-menu" onclick="ResizeHeader()"><hr class="menu-button-line" /><hr class="menu-button-line" /><hr class="menu-button-line" /></button><ul id="menuselect"><li  class="liafter" ><a href="#/">@Resources.Resource.ServerSolution</a></li><li  class="liafter" style ="padding-left:3px;"><a href="#/home/StackTechnology">@Resources.Resource.Technology</a></li><li  class="liafter"  style ="padding-left:3px"><a href="#/home/Client">@Resources.Resource.Client</a></li><li   style ="padding-left:3px"><a href="#/home/Scope">@Resources.Resource.Scope</a></li></ul><ul id="menuContact"><li><span class="link icon-whatsapp"><a href="tel:@Resources.Resource.Phone">@Resources.Resource.Phone</a></span></li><li><div class="dropdown link icon-skype"><span>ihighload</span><div class="dropdown-content" style="background-color: #ededed;border-radius:10px;"><a href="skype:ihighload?call">@Resources.Resource.Skype</a><a href="skype:ihighload?chat">@Resources.Resource.Chat</a></div></div></li><li><span class="link icon-envelop"><a href="mailto:info@ihighload.info">@Resources.Resource.Mail</a></span></li><li><span> <a href="#" data-lang="en" class="movie"><span>EN</span></a> <span>/</span> <a href="#" data-lang="ru" class="movie"><span>RU</span></a></span></li></ul></div> ');
             }
 
         }
@@ -115,7 +117,7 @@
                     {
                         $(this).css("padding-left", "25vw");
                     }
-                  
+
                     next();
                 });
             }
@@ -124,7 +126,7 @@
                     height: 100
                 });
                 $("#menuselect").css("visibility", "hidden");
-                 
+
             }
 
 

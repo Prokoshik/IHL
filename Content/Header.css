@@ -670,25 +670,15 @@ ul:not(.UlIndex,.UlTechnology) {
     }
 
     .icon-envelop:before {
-        content: '';
-        display: block;
-        position: absolute;
         width: 21px;
         height: 21px;
-        background-image: url(../../Content/Images/mail.PNG);
-        background-size: cover;
         left: 134px !important;
         top: 51px;
     }
 
     .icon-whatsapp:before {
-        content: '';
-        display: block;
-        position: absolute;
         width: 21px;
         height: 21px;
-        background-image: url(../../Content/Images/phone.png);
-        background-size: cover;
         left: 134px !important;
         top: 0px;
     }
@@ -696,7 +686,7 @@ ul:not(.UlIndex,.UlTechnology) {
 
 @media all and (max-width:345px) {
     #menuselect {
-        font-size: 15px !important;
+        font-size: 14px !important;
     }
 }
 
@@ -783,6 +773,7 @@ ul:not(.UlIndex,.UlTechnology) {
         display: table-caption !important;
         width: 39vw;
         padding-left: 104px;
+        padding-top: 4px;
     }
 
     .icon-skype:before {
@@ -794,7 +785,7 @@ ul:not(.UlIndex,.UlTechnology) {
         background-image: url(../../Content/Images/skype.png);
         background-size: cover;
         left: 160px;
-        top: 25px;
+        top: 28px;
     }
 
 
@@ -808,7 +799,7 @@ ul:not(.UlIndex,.UlTechnology) {
         background-image: url(../../Content/Images/mail.PNG);
         background-size: cover;
         left: 160px;
-        top: 51px;
+        top: 55px;
     }
 
     .icon-whatsapp:before {
@@ -820,11 +811,12 @@ ul:not(.UlIndex,.UlTechnology) {
         background-image: url(../../Content/Images/phone.png);
         background-size: cover;
         left: 161px;
-        top: 0px;
+        top: 4px;
     }
 
     .board ul li {
         padding-bottom: 10px;
+        float: left;
     }
 
     .menu-button-line {
@@ -866,6 +858,7 @@ ul:not(.UlIndex,.UlTechnology) {
     .brandImage {
         border: 1px solid #eee;
         height: 60px;
+        margin: 5px;
     }
 
     #brandP {
@@ -928,7 +921,23 @@ ul:not(.UlIndex,.UlTechnology) {
     }
 }
 
+@media (max-width: 637px) and (min-width: 528px) {
 
+    .icon-skype:before {
+        left: 184px !important;
+        top: 28px;
+    }
+
+    .icon-envelop:before {
+        left: 185px !important;
+        top: 55px;
+    }
+
+    .icon-whatsapp:before {
+        left: 185px;
+        top: 3px;
+    }
+}
 
 
 @media all and (min-width:1460px) {

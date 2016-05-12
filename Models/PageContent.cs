@@ -25,8 +25,7 @@ namespace Northwind.Web.Models
 
             using (var logReader = new StreamReader(pathToXml))
             {
-                pageContent = logsSerializer.Deserialize(logReader) as PageContent;  
-               
+                pageContent = logsSerializer.Deserialize(logReader) as PageContent;              
                 RUText = pageContent.RUText;
                 ENText = pageContent.ENText;
 
